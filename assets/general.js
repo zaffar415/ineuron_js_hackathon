@@ -1,4 +1,6 @@
 (function() {
+    
+
     $('.owl-carousel.banner-slider').owlCarousel({
         loop:true,
         margin:10,
@@ -6,14 +8,14 @@
         items:1
     });
 
-    $('.owl-carousel-archievers, .owl-carousel-hackathon, .owl-carousel.owl-carousel-partners').owlCarousel({
+    $('.owl-carousel-archievers, .owl-carousel-hackathon').owlCarousel({
         loop:true,
         margin:10,
         responsiveClass:true,                
         responsive:{
             0:{
                 items:2,
-                nav:true
+                nav:false
             },
             600:{
                 items:3,
@@ -21,8 +23,28 @@
             },
             1000:{
                 items:5,
-                nav:true,
+                nav:false,
                 loop:false
+            }
+        }
+    })
+
+    $(".owl-carousel.owl-carousel-partners").owlCarousel({
+        loop:true,
+        margin:10,
+        responsiveClass:true,                
+        responsive:{
+            0:{
+                items:3,
+                nav:false
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:9,
+                nav:false,
             }
         }
     })
@@ -48,8 +70,10 @@
             1000:{
                 items:3,
                 nav:false,
-                loop:false
             }
         }
-    })
+    });
+
+    $(".loader").hide();
+    $("body").removeClass("loading");
 })();

@@ -12,7 +12,15 @@
     <script src="./assets/js/jquery.min.js"></script>
 </head>
 
-<body>
+<body class="loading">
+    <div class="loader">
+        <img src="https://ineuron.ai/images/ineuron-logo.png" alt="ineuron" class="logo">
+        <div class="loadingio-spinner-ellipsis-6fjsyl5obeq"><div class="ldio-xw9sb0390eb">
+            <div></div><div></div><div></div><div></div><div></div>
+            </div>
+        </div>            
+            
+    </div>
     <header>
         <div class="container-fluid bg-primary" style="position:absolute; z-index: 10;">
 
@@ -72,8 +80,16 @@
                                 </li>
                             </ul>
                             <div class="nav-widgets d-flex align-items-center">
-                                <div class="search mx-2">
+                                <div class="search mx-2 nav-item dropdown p-2">
                                     <i class="fa-solid fa-magnifying-glass"></i>
+                                    <div class="dropdown-menu p-1 mt-1" style="margin-left:-150px; min-width:200px">
+                                        <form action="#" onsubmit="return false">
+                                            <div class="d-flex">
+                                                <input type="search" name="" id="" class="form-control border-0 border-bottom placeholder="Search...">
+                                                <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                            </div>
+                                        </form>
+                                    </div>
                                 </div>
                                 <div class="login ml-2 nav-item dropdown">
                                     <img src="https://via.placeholder.com/35" alt="" class="rounded-circle">
@@ -147,8 +163,8 @@
                                 <h2 class="text-secondary font-bold">
                                     <span>400</span>+
                                 </h2>
-                                <p>Different
-                                    Courses</p>
+                                <h4 class="font-bold">Different
+                                    Courses</h4>
                             </div>
                         </div>
                         <div class="col-md-4 text-center">
@@ -158,7 +174,7 @@
                                 <h2 class="text-secondary font-bold">
                                     <span>400000</span>+
                                 </h2>
-                                <p>Students Enrolled</p>
+                                <h4 class="font-bold">Students Enrolled</h4>
                             </div>
                         </div>
                         <div class="col-md-4 text-center">
@@ -168,8 +184,8 @@
                                 <h2 class="text-secondary font-bold">
                                     <span>10000</span>+
                                 </h2>
-                                <p>Successful Transition
-                                </p>
+                                <h4 class="font-bold">Successful Transition
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -180,7 +196,7 @@
         <section class="archievers bg-grey pb-0">
             <div class="wrap">
                 <div class="section-title">
-                    <h3 class="text-center display-4 text-primary">Our Achiever’s Work with</h3>
+                    <h3 class="text-center display-4 text-white">Our Achiever’s Work with</h3>
                 </div>
                 <div class="container">
                     <div class="owl-carousel owl-carousel-archievers">
@@ -377,16 +393,18 @@
                 <div class="container p-5">
                     <div class="owl-carousel hall-of-fame">
                         <div class="item">
-                            <div class="card bg-black text-center">
+                            <div class="card bg-grey text-center">
                                 <div class="card-content p-5">
                                     <div class="profile">
-                                        <figure>
-                                            <img src="https://hall-of-fame-cdn.ineuron.ai/profilePictures/62dc33aba9f208001ac2a172.jpeg"
-                                                alt="icon" width="200" class="rounded-circle">
-                                        </figure>
+                                        <a href="#">
+                                            <figure class="rounded-circle">
+                                                <img src="https://hall-of-fame-cdn.ineuron.ai/profilePictures/62dc33aba9f208001ac2a172.jpeg"
+                                                    alt="icon" width="200" class="rounded-circle">
+                                            </figure>
+                                        </a>
                                     </div>
                                     <h2 class="font-bold">
-                                        Aakash B
+                                        <a href="#">Aakash B</a>
                                     </h2>
                                     <p>ECOLAB, trainee software developer</p>
                                     <p>I have enrolled for your ML course two years back , Python you taught in that
@@ -407,16 +425,18 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="card bg-black text-center">
+                            <div class="card bg-grey text-center">
                                 <div class="card-content p-5">
                                     <div class="profile">
-                                        <figure>
+                                    <a href="#">
+                                        <figure class="rounded-circle">
                                             <img src="https://hall-of-fame-cdn.ineuron.ai/profilePictures/62dc33aba9f208001ac2a172.jpeg"
                                                 alt="icon" width="200" class="rounded-circle">
                                         </figure>
+                                    </a>
                                     </div>
                                     <h2 class="font-bold">
-                                        Aakash B
+                                        <a href="#">Aakash B</a>
                                     </h2>
                                     <p>ECOLAB, trainee software developer</p>
                                     <p>I have enrolled for your ML course two years back , Python you taught in that
@@ -437,16 +457,18 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="card bg-black text-center">
+                            <div class="card bg-grey text-center">
                                 <div class="card-content p-5">
                                     <div class="profile">
-                                        <figure>
-                                            <img src="https://hall-of-fame-cdn.ineuron.ai/profilePictures/62dc33aba9f208001ac2a172.jpeg"
-                                                alt="icon" width="200" class="rounded-circle">
-                                        </figure>
+                                        <a href="#">
+                                            <figure class="rounded-circle">
+                                                <img src="https://hall-of-fame-cdn.ineuron.ai/profilePictures/62dc33aba9f208001ac2a172.jpeg"
+                                                    alt="icon" width="200" class="rounded-circle">
+                                            </figure>
+                                        </a>
                                     </div>
                                     <h2 class="font-bold">
-                                        Aakash B
+                                        <a href="#">Aakash B</a>
                                     </h2>
                                     <p>ECOLAB, trainee software developer</p>
                                     <p>I have enrolled for your ML course two years back , Python you taught in that
@@ -467,16 +489,18 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="card bg-black text-center">
+                            <div class="card bg-grey text-center">
                                 <div class="card-content p-5">
                                     <div class="profile">
-                                        <figure>
-                                            <img src="https://hall-of-fame-cdn.ineuron.ai/profilePictures/62dc33aba9f208001ac2a172.jpeg"
-                                                alt="icon" width="200" class="rounded-circle">
-                                        </figure>
+                                        <a href="#">
+                                            <figure class="rounded-circle">
+                                                <img src="https://hall-of-fame-cdn.ineuron.ai/profilePictures/62dc33aba9f208001ac2a172.jpeg"
+                                                    alt="icon" width="200" class="rounded-circle">
+                                            </figure>
+                                        </a>
                                     </div>
                                     <h2 class="font-bold">
-                                        Aakash B
+                                        <a href="#">Aakash B</a>
                                     </h2>
                                     <p>ECOLAB, trainee software developer</p>
                                     <p>I have enrolled for your ML course two years back , Python you taught in that
@@ -525,14 +549,16 @@
 
                     <div class="owl-carousel what-you-will-learn">
                         <div class="item">
-                            <div class="card bg-black">
+                            <div class="card bg-grey">
                                 <div class="card-content p-3">
-                                    <figure>
-                                        <img src="https://cdn.ineuron.ai/assets/uploads/thumbnails/62bf3edd6960793aeb3c0dbb.jpg"
-                                            alt="icon" width="200">
-                                    </figure>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="https://cdn.ineuron.ai/assets/uploads/thumbnails/62bf3edd6960793aeb3c0dbb.jpg"
+                                                alt="icon" width="200">
+                                        </figure>
+                                    </a>
                                     <h5 class="font-bold text-secondary">
-                                        Full Stack Web Development using Python in Hindi
+                                        <a href="#">Full Stack Web Development using Python in Hindi</a>
                                     </h5>
                                     <p>Amresh Bharti</p>
                                     <div class="d-flex justify-content-between align-items-center">
@@ -543,14 +569,16 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="card bg-black">
+                            <div class="card bg-grey">
                                 <div class="card-content p-3">
-                                    <figure>
-                                        <img src="https://cdn.ineuron.ai/assets/uploads/thumbnails/62bf3edd6960793aeb3c0dbb.jpg"
-                                            alt="icon" width="200">
-                                    </figure>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="https://cdn.ineuron.ai/assets/uploads/thumbnails/62bf3edd6960793aeb3c0dbb.jpg"
+                                                alt="icon" width="200">
+                                        </figure>
+                                    </a>
                                     <h5 class="font-bold text-secondary">
-                                        Full Stack Web Development using Python in Hindi
+                                        <a href="#">Full Stack Web Development using Python in Hindi</a>
                                     </h5>
                                     <p>Amresh Bharti</p>
                                     <div class="d-flex justify-content-between align-items-center">
@@ -561,14 +589,16 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="card bg-black">
+                            <div class="card bg-grey">
                                 <div class="card-content p-3">
-                                    <figure>
-                                        <img src="https://cdn.ineuron.ai/assets/uploads/thumbnails/62bf3edd6960793aeb3c0dbb.jpg"
-                                            alt="icon" width="200">
-                                    </figure>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="https://cdn.ineuron.ai/assets/uploads/thumbnails/62bf3edd6960793aeb3c0dbb.jpg"
+                                                alt="icon" width="200">
+                                        </figure>
+                                    </a>
                                     <h5 class="font-bold text-secondary">
-                                        Full Stack Web Development using Python in Hindi
+                                        <a href="#">Full Stack Web Development using Python in Hindi</a>
                                     </h5>
                                     <p>Amresh Bharti</p>
                                     <div class="d-flex justify-content-between align-items-center">
@@ -579,14 +609,16 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="card bg-black">
+                            <div class="card bg-grey">
                                 <div class="card-content p-3">
-                                    <figure>
-                                        <img src="https://cdn.ineuron.ai/assets/uploads/thumbnails/62bf3edd6960793aeb3c0dbb.jpg"
-                                            alt="icon" width="200">
-                                    </figure>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="https://cdn.ineuron.ai/assets/uploads/thumbnails/62bf3edd6960793aeb3c0dbb.jpg"
+                                                alt="icon" width="200">
+                                        </figure>
+                                    </a>
                                     <h5 class="font-bold text-secondary">
-                                        Full Stack Web Development using Python in Hindi
+                                        <a href="#">Full Stack Web Development using Python in Hindi</a>
                                     </h5>
                                     <p>Amresh Bharti</p>
                                     <div class="d-flex justify-content-between align-items-center">
@@ -604,10 +636,10 @@
 
 
 
-        <section class="hackathon bg-grey pb-0">
+        <section class="hackathon bg-grey pb-0" style="background-image: linear-gradient(90deg, rgba(50,50,50,1), rgba(50,50,50,0.9)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRotbaylrsa2hYK0FYeZS8g-d_djJOC2OZDRA&usqp=CAU); background-repeat:no-repeat; background-size:cover;">
             <div class="wrap">
                 <div class="section-title">
-                    <h3 class="text-center display-4 text-primary">Hackathon companies</h3>
+                    <h3 class="text-center display-4 text-white">Hackathon companies</h3>
                 </div>
                 <div class="container">
                     <div class="owl-carousel owl-carousel-hackathon">
@@ -796,20 +828,22 @@
             </div>
         </section>
 
-        <section class="our-products">
+        <section class="our-products" >
             <div class="wrap">
                 <div class="section-title">
                     <h2 class="text-center display-4 text-warning">Our Products</h2>
-                </div>
+                </div>                
                 <div class="container p-5">
                     <div class="our-products">
                         <div class="row justify-content-center">
                             <div class="col-md-4 pb-4">
                                 <div class="product text-center">
-                                    <figure>
-                                        <img src="https://ineuron.ai/images/landing-page/products/jobPortal-icon.svg"
-                                            alt="icon" class="icon">
-                                    </figure>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="https://ineuron.ai/images/landing-page/products/jobPortal-icon.svg"
+                                                alt="icon" class="icon">
+                                        </figure>
+                                    </a>
                                     <h3 class="font-bold text-secondary mb-b">
                                         <a href="#" class="text-decoration-none">Job Portal</a>
                                     </h3>
@@ -819,10 +853,12 @@
                             </div>
                             <div class="col-md-4 pb-4">
                                 <div class="product text-center">
-                                    <figure>
-                                        <img src="https://ineuron.ai/images/landing-page/products/Internship-icon.svg"
-                                            alt="icon" class="icon">
-                                    </figure>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="https://ineuron.ai/images/landing-page/products/Internship-icon.svg"
+                                                alt="icon" class="icon">
+                                        </figure>
+                                    </a>
                                     <h3 class="font-bold text-secondary mb-b">
                                         <a href="#" class="text-decoration-none">Internship portal</a>
                                     </h3>
@@ -832,10 +868,12 @@
                             </div>
                             <div class="col-md-4 pb-4">
                                 <div class="product text-center">
-                                    <figure>
-                                        <img src="https://ineuron.ai/images/landing-page/products/affilitatePortal-icon.svg"
-                                            alt="icon" class="icon">
-                                    </figure>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="https://ineuron.ai/images/landing-page/products/affilitatePortal-icon.svg"
+                                                alt="icon" class="icon">
+                                        </figure>
+                                    </a>
                                     <h3 class="font-bold text-secondary mb-b">
                                         <a href="#" class="text-decoration-none">Become an affiliate</a>
                                     </h3>
@@ -845,10 +883,12 @@
                             </div>
                             <div class="col-md-4 pb-4">
                                 <div class="product text-center">
-                                    <figure>
-                                        <img src="https://ineuron.ai/images/landing-page/products/halloffame-icon.svg"
-                                            alt="icon" class="icon">
-                                    </figure>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="https://ineuron.ai/images/landing-page/products/halloffame-icon.svg"
+                                                alt="icon" class="icon">
+                                        </figure>
+                                    </a>
                                     <h3 class="font-bold text-secondary mb-b">
                                         <a href="#" class="text-decoration-none">Hall of fame</a>
                                     </h3>
@@ -858,10 +898,12 @@
                             </div>
                             <div class="col-md-4 pb-4">
                                 <div class="product text-center">
-                                    <figure>
-                                        <img src="https://ineuron.ai/images/landing-page/products/blog-icon.svg"
-                                            alt="icon" class="icon">
-                                    </figure>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="https://ineuron.ai/images/landing-page/products/blog-icon.svg"
+                                                alt="icon" class="icon">
+                                        </figure>
+                                    </a>
                                     <h3 class="font-bold text-secondary mb-b">
                                         <a href="#" class="text-decoration-none">InBlog</a>
                                     </h3>
@@ -883,14 +925,16 @@
                 <div class="container p-5">
                     <div class="owl-carousel team">
                         <div class="item">
-                            <div class="card bg-black">
+                            <div class="card bg-grey">
                                 <div class="card-content p-3 text-center">
-                                    <figure>
-                                        <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
-                                            alt="icon" width="200" class="rounded-circle p-5">
-                                    </figure>
+                                    <a href="#">
+                                        <figure class="rounded-circle">
+                                            <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
+                                                alt="icon" width="200" class="rounded-circle p-5">
+                                        </figure>
+                                    </a>
                                     <h5 class="font-bold text-secondary">
-                                        Krish Naik
+                                        <a href="#">Krish Naik</a>
                                     </h5>
                                     <p>Cyber Security Lead</p>
                                     <img src="https://ineuron.ai/images/landing-page/linkedin-icon.svg" alt=""
@@ -901,14 +945,16 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="card bg-black">
+                            <div class="card bg-grey">
                                 <div class="card-content p-3 text-center">
-                                    <figure>
-                                        <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
-                                            alt="icon" width="200" class="rounded-circle p-5">
-                                    </figure>
+                                    <a href="#">
+                                        <figure class="rounded-circle">
+                                            <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
+                                                alt="icon" width="200" class="rounded-circle p-5">
+                                        </figure>
+                                    </a>
                                     <h5 class="font-bold text-secondary">
-                                        Krish Naik
+                                        <a href="#">Krish Naik</a>
                                     </h5>
                                     <p>Cyber Security Lead</p>
                                     <img src="https://ineuron.ai/images/landing-page/linkedin-icon.svg" alt=""
@@ -919,14 +965,16 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="card bg-black">
+                            <div class="card bg-grey">
                                 <div class="card-content p-3 text-center">
-                                    <figure>
-                                        <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
-                                            alt="icon" width="200" class="rounded-circle p-5">
-                                    </figure>
+                                    <a href="#">
+                                        <figure class="rounded-circle">
+                                            <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
+                                                alt="icon" width="200" class="rounded-circle p-5">
+                                        </figure>
+                                    </a>
                                     <h5 class="font-bold text-secondary">
-                                        Krish Naik
+                                        <a href="#">Krish Naik</a>
                                     </h5>
                                     <p>Cyber Security Lead</p>
                                     <img src="https://ineuron.ai/images/landing-page/linkedin-icon.svg" alt=""
@@ -937,14 +985,16 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="card bg-black">
+                            <div class="card bg-grey">
                                 <div class="card-content p-3 text-center">
-                                    <figure>
-                                        <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
-                                            alt="icon" width="200" class="rounded-circle p-5">
-                                    </figure>
+                                    <a href="#">
+                                        <figure class="rounded-circle">
+                                            <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
+                                                alt="icon" width="200" class="rounded-circle p-5">
+                                        </figure>
+                                    </a>
                                     <h5 class="font-bold text-secondary">
-                                        Krish Naik
+                                        <a href="#">Krish Naik</a>
                                     </h5>
                                     <p>Cyber Security Lead</p>
                                     <img src="https://ineuron.ai/images/landing-page/linkedin-icon.svg" alt=""
@@ -955,14 +1005,16 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="card bg-black">
+                            <div class="card bg-grey">
                                 <div class="card-content p-3 text-center">
-                                    <figure>
-                                        <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
-                                            alt="icon" width="200" class="rounded-circle p-5">
-                                    </figure>
+                                    <a href="#">
+                                        <figure class="rounded-circle">
+                                            <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
+                                                alt="icon" width="200" class="rounded-circle p-5">
+                                        </figure>
+                                    </a>
                                     <h5 class="font-bold text-secondary">
-                                        Krish Naik
+                                        <a href="#">Krish Naik</a>
                                     </h5>
                                     <p>Cyber Security Lead</p>
                                     <img src="https://ineuron.ai/images/landing-page/linkedin-icon.svg" alt=""
@@ -973,14 +1025,16 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="card bg-black">
+                            <div class="card bg-grey">
                                 <div class="card-content p-3 text-center">
-                                    <figure>
-                                        <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
-                                            alt="icon" width="200" class="rounded-circle p-5">
-                                    </figure>
+                                    <a href="#">
+                                        <figure class="rounded-circle">
+                                            <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
+                                                alt="icon" width="200" class="rounded-circle p-5">
+                                        </figure>
+                                    </a>
                                     <h5 class="font-bold text-secondary">
-                                        Krish Naik
+                                        <a href="#">Krish Naik</a>
                                     </h5>
                                     <p>Cyber Security Lead</p>
                                     <img src="https://ineuron.ai/images/landing-page/linkedin-icon.svg" alt=""
@@ -991,14 +1045,16 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="card bg-black">
+                            <div class="card bg-grey">
                                 <div class="card-content p-3 text-center">
-                                    <figure>
-                                        <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
-                                            alt="icon" width="200" class="rounded-circle p-5">
-                                    </figure>
+                                    <a href="#">
+                                        <figure class="rounded-circle">
+                                            <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
+                                                alt="icon" width="200" class="rounded-circle p-5">
+                                        </figure>
+                                    </a>
                                     <h5 class="font-bold text-secondary">
-                                        Krish Naik
+                                        <a href="#">Krish Naik</a>
                                     </h5>
                                     <p>Cyber Security Lead</p>
                                     <img src="https://ineuron.ai/images/landing-page/linkedin-icon.svg" alt=""
@@ -1014,13 +1070,44 @@
             </div>
         </section>
 
-        <section class="partners bg-grey pb-0">
+        <section class="partners pb-0">
             <div class="wrap">
                 <div class="section-title">
-                    <h3 class="text-center display-4 text-primary">Our Partnered Institutions</h3>
+                    <h3 class="text-center display-4 text-white">Our Partnered Institutions</h3>
                 </div>
                 <div class="container">
-                    <div class="owl-carousel owl-carousel-partners">
+
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./assets/undraw_agreement_re_d4dv.svg" alt="" class="w-100" style="height:350px">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row align-items-center justify-content-center bg-yellow rounded py-4">
+                                <div class="col-4 text-center my-3">
+                                    <img src="https://ineuron.ai/images/landing-page/colleges/taxila.svg" alt="musigma"
+                                class="w-75">
+                                </div>
+                                <div class="col-4 text-center my-3">
+                                    <img src="https://ineuron.ai/images/landing-page/colleges/vit.svg" alt="musigma"
+                                class="w-75">
+                                </div>
+                                <div class="col-4 text-center my-3">
+                                    <img src="https://ineuron.ai/images/landing-page/colleges/keit.svg" alt="musigma"
+                                class="w-75">
+                                </div>
+                                <div class="col-4 text-center my-3">
+                                    <img src="https://ineuron.ai/images/landing-page/colleges/gim.svg" alt="musigma"
+                                class="w-75">
+                                </div>
+                                <div class="col-4 text-center my-3">
+                                    <img src="https://ineuron.ai/images/landing-page/colleges/malnad-college.svg" alt="musigma"
+                                class="w-75">
+                                </div>                                
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="owl-carousel owl-carousel-partners">
                         <div class="item">
                             <img src="https://ineuron.ai/images/landing-page/colleges/taxila.svg" alt="musigma"
                                 class="px-3">
@@ -1041,7 +1128,7 @@
                             <img src="https://ineuron.ai/images/landing-page/colleges/malnad-college.svg" alt="robosoft"
                                 class="px-3">
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -1049,7 +1136,7 @@
 
     <footer>
         <div class="footer bg-primary">
-            <div class="container">
+            <div class="container px-3">
                 <div class="row">
                     <div class="col-md-4" style="padding-right:100px">
                         <figure>

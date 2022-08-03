@@ -10,16 +10,22 @@
     <link rel="stylesheet" href="./assets/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="./assets/js/jquery.min.js"></script>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">    
 </head>
 
 <body class="loading">
     <div class="loader">
         <img src="https://ineuron.ai/images/ineuron-logo.png" alt="ineuron" class="logo">
-        <div class="loadingio-spinner-ellipsis-6fjsyl5obeq"><div class="ldio-xw9sb0390eb">
-            <div></div><div></div><div></div><div></div><div></div>
+        <div class="loadingio-spinner-ellipsis-6fjsyl5obeq">
+            <div class="ldio-xw9sb0390eb">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
-        </div>            
-            
+        </div>
+
     </div>
     <header>
         <div class="container-fluid bg-primary" style="position:absolute; z-index: 10;">
@@ -27,12 +33,12 @@
             <div class="wrap">
                 <nav class="navbar navbar-expand-lg navbar-dark justify-content-between">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#"><img src="https://ineuron.ai/images/ineuron-logo-white.png"
-                                alt="ineuron" width="150"></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        <a class="navbar-brand" href="#"><img src="./assets/ineuron-logo-white.png" alt="ineuron"
+                                width="150"></a>
+                        <button class="navbar-toggler btn border-0" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                             aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                            <i class="fa-solid fa-bars text-white"></i>
                         </button>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                             <ul class="navbar-nav">
@@ -41,18 +47,43 @@
                                             class="fa-solid fa-caret-down"></i></a>
                                     <div class="dropdown-menu">
                                         <div class="nav-item">
-                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Data Science</a>
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="dropdown-item" href="#">Big data</a>
                                         </div>
                                         <div class="nav-item dropdown">
-                                            <a class="dropdown-item" href="#">Another action <i
+                                            <a class="dropdown-item" href="#">Web Development <i
                                                     class="fa-solid fa-caret-right"></i></a>
                                             <div class="dropdown-menu">
-                                                <a class="dropdown-item" href="#">Action</a>
-                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <a class="dropdown-item" href="#">HTML</a>
+                                                <a class="dropdown-item" href="#">CSS</a>
+                                                <a class="dropdown-item" href="#">Javascript</a>
+                                                <a class="dropdown-item" href="#">Node JS</a>
+                                                <a class="dropdown-item" href="#">React</a>
+                                            </div>
+                                        </div>
+                                        <div class="nav-item dropdown">
+                                            <a class="dropdown-item" href="#">Mobile App Development <i
+                                                    class="fa-solid fa-caret-right"></i></a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Android</a>
+                                                <a class="dropdown-item" href="#">IOS</a>
+                                                <a class="dropdown-item" href="#">React Native</a>
+                                                <a class="dropdown-item" href="#">Flutter</a>
                                             </div>
                                         </div>
                                         <div class="nav-item">
-                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Blockchain</a>
+                                        </div>
+                                        <div class="nav-item dropdown">
+                                            <a class="dropdown-item" href="#">Programming <i
+                                                    class="fa-solid fa-caret-right"></i></a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">C / C++</a>
+                                                <a class="dropdown-item" href="#">Java</a>
+                                                <a class="dropdown-item" href="#">Go lang</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </li>
@@ -75,33 +106,58 @@
                                 <li class="nav-item">
                                     <a class="nav-link" aria-current="page" href="#">Blog</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Company</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" aria-current="page" href="#">Company
+                                    <i class="fa-solid fa-caret-down"></i></a>
+                                    <div class="dropdown-menu">
+                                        <div class="nav-item">
+                                            <a class="dropdown-item" href="#">About us</a>
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="dropdown-item" href="#">Contact us</a>
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="dropdown-item" href="#">Hackathons</a>
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="dropdown-item" href="#">FAQ's</a>
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="dropdown-item" href="#">Job Assistance</a>
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="dropdown-item" href="#">Job guarantee</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item d-lg-none">
+                                    <a class="nav-link" aria-current="page" href="#">Sign In</a>
                                 </li>
                             </ul>
-                            <div class="nav-widgets d-flex align-items-center">
-                                <div class="search mx-2 nav-item dropdown p-2">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                    <div class="dropdown-menu p-1 mt-1" style="margin-left:-150px; min-width:200px">
-                                        <form action="#" onsubmit="return false">
-                                            <div class="d-flex">
-                                                <input type="search" name="" id="" class="form-control border-0 border-bottom placeholder="Search...">
-                                                <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
-                                            </div>
-                                        </form>
-                                    </div>
+                        </div>
+                        <div class="nav-widgets align-items-center d-none d-lg-flex">
+                            <div class="search mx-2 nav-item dropdown p-2">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <div class="dropdown-menu p-1 mt-1" style="margin-left:-150px; min-width:200px">
+                                    <form action="#" onsubmit="return false">
+                                        <div class="d-flex">
+                                            <input type="search" name="" id=""
+                                                class="form-control border-0 border-bottom" placeholder=" Search...">
+                                            <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                        </div>
+                                    </form>
                                 </div>
-                                <div class="login ml-2 nav-item dropdown">
-                                    <img src="https://via.placeholder.com/35" alt="" class="rounded-circle">
-                                    <div class="dropdown-menu" style="margin-left:-100px">
-                                        <a href="#" class="dropdown-item">Dashboard</a>
-                                        <a href="#" class="dropdown-item">My Courses</a>
-                                        <a href="#" class="dropdown-item">Sign in</a>
-                                    </div>
+                            </div>
+                            <div class="login ml-2 nav-item dropdown">
+                                <img src="https://via.placeholder.com/35" alt="" class="rounded-circle">
+                                <div class="dropdown-menu" style="margin-left:-100px">
+                                    <a href="#" class="dropdown-item">Dashboard</a>
+                                    <a href="#" class="dropdown-item">My Courses</a>
+                                    <a href="#" class="dropdown-item">Sign in</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>                
                 </nav>
             </div>
         </div>
@@ -110,9 +166,9 @@
                 <div class="owl-carousel banner-slider">
                     <div class="item wrap">
                         <div class="row align-items-center">
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 banner-text">
                                 <div class="p-4">
-                                    <p>Learn from the best of industry</p>
+                                    <p class="banner-title">Learn from the best of industry</p>
                                     <hr>
                                     <h1> Highest in quality, affordable in price</h1>
                                     <p>
@@ -121,8 +177,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-8">
-                                <img src="https://ineuron.ai/images/landing-page/hero/hero-influencers1.png"
-                                    class="d-block w-100" alt="banner-img">
+                                <img src="./assets/hero-banner1.png" class="d-block w-100" alt="banner-img">
                             </div>
                         </div>
                     </div>
@@ -130,7 +185,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-4">
                                 <div class="p-4">
-                                    <p>Learn from the best of industry</p>
+                                    <p class="banner-title">Learn from the best of industry</p>
                                     <hr>
                                     <h1> Highest in quality, affordable in price</h1>
                                     <p>
@@ -139,8 +194,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-8">
-                                <img src="https://ineuron.ai/images/landing-page/hero/hero-hackathon.png"
-                                    class="d-block w-100" alt="banner-img">
+                                <img src="./assets/hero-banner-2.png" class="d-block w-100" alt="banner-img">
                             </div>
                         </div>
                     </div>
@@ -152,14 +206,297 @@
         <section class="counter">
             <div class="wrap">
                 <div class="section-title">
-                    <h2 class="text-center display-4 text-warning">“Pure Hardwork, No Shortcuts!”</h2>
+                    <h2 class="text-center display-4">“Pure Hardwork, No Shortcuts!”</h2>
                 </div>
-                <div class="container">
+                <div class="container-fluid py-5">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h3 class="text-danger font-bold">About us</h3>
+                            <h5>LiNeuron started as a product development company, then launched its ed-tech division.
+                                We provide 360 degree solutions from learning to internship to finding a job, and the
+                                first ever educational OTT platform to upgrade your skill set.</h5>
+                            <h5>Our goal is to make education and experiential skills affordable and accessible to
+                                everyone regardless of their disparate economic and educational backgrounds. We empower
+                                students to make demands unlike any other platform or institute because curiosity cannot
+                                be contained. Learning cannot be boxed in a book. So let’s step ahead and ‘build
+                                together’.</h5>
+
+                            <div class="row mt-5 justify-content-center">
+                                <div class="col-6 col-md-4 text-center">
+                                    <div class="d-block d-md-flex align-items-center">
+                                        <figure>
+                                            <img src="./assets/books-icon.svg" alt="icon" width="80">
+                                        </figure>
+                                        <div>
+                                            <h4 class="text-secondary font-bold">
+                                                <span>400</span>+
+                                            </h4>
+                                            <p class="font-bold">Different
+                                                Courses</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 text-center">
+                                    <div class="d-block d-md-flex align-items-center">
+                                        <figure>
+                                            <img src="./assets/student-iocn.svg" alt="icon" width="80">
+                                        </figure>
+                                        <div>
+                                            <h4 class="text-secondary font-bold">
+                                                <span>400000</span>+
+                                            </h4>
+                                            <p class="font-bold">Students Enrolled</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 text-center">
+                                    <div class="d-block d-md-flex align-items-center">
+                                        <figure>
+                                            <img src="./assets/credit-card-icon.svg" alt="icon" width="80">
+                                        </figure>
+                                        <div>
+                                            <h4 class="text-secondary font-bold">
+                                                <span>10000</span>+
+                                            </h4>
+                                            <p class="font-bold">Successful Transition
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="aaa8e60f-e17d-4184-a97c-25f18689c4c8"
+                                data-name="Layer 1" width="100%" height="409.89848" viewBox="0 0 774.13137 669.89848"
+                                class="injected-svg ClassicGrid__ImageFile-sc-td9pmq-4 fNAcXv grid_media"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path
+                                    d="M824.24088,170.37071c-.87-.58-1.75-1.13-2.62-1.69a380.24064,380.24064,0,0,0-80.31-38.93l-6.54,90.22h-41.46v-103.39c-2.61-.54-5.24-1.05-7.87-1.53v104.92H636.17077A102.26991,102.26991,0,0,1,533.90086,117.70082v-.0001c-2.64.57-5.26,1.18-7.88,1.83v100.44h-40.13l-6.23-86.03a380.85838,380.85838,0,0,0-81.94,43.53c-.44.3-.88.61-1.31.91-2.21,1.55-4.39,3.13-6.56,4.73005v344.19h118.27l-2.09-28.95-11.5-158.95h231.59l-11.5,158.95-2.09,28.95h116.96v-353.45Q826.88081,172.08075,824.24088,170.37071Zm-298.22,142.78h-33.39l-6.17-85.3h39.56Zm159.42,0h-56.08v-1.69a6.17976,6.17976,0,0,0-6.19-6.18h-24.38a6.17757,6.17757,0,0,0-6.18,6.18v1.69h-58.71v-85.3h151.54Zm7.87,0v-85.3h40.89l-6.17,85.3Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#f2f2f2"></path>
+                                <path
+                                    d="M952.68408,740.6l.78168-17.57605a56.76523,56.76523,0,0,1,26.47721-6.7024c-12.71655,10.39672-11.12736,30.438-19.74889,44.41914a34.14439,34.14439,0,0,1-25.03846,15.77861L924.514,783.03481a57.2153,57.2153,0,0,1,12.05952-46.36369,55.26678,55.26678,0,0,1,10.157-9.43749C949.27916,733.954,952.68408,740.6,952.68408,740.6Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#f2f2f2"></path>
+                                <path
+                                    d="M381.73337,721.33965l-25.68044-7.775a86.5724,86.5724,0,0,1,.06719-41.65384c10.57528,22.709,40.792,27.90878,58.20681,45.916a52.07345,52.07345,0,0,1,13.888,42.94605l5.621,18.18083A87.25862,87.25862,0,0,1,369.85924,743.669a84.28671,84.28671,0,0,1-10.12172-18.565C370.62924,723.86851,381.73337,721.33965,381.73337,721.33965Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#f2f2f2"></path>
+                                <path
+                                    d="M932.70084,780.16074a2.038,2.038,0,0,1-.59,1.42,1.98779,1.98779,0,0,1-1.41.58h-8.04a1.9931,1.9931,0,0,1-2-2v-243.14c0-5.36-1.8-9.71-4.01-9.72h-602.49c-2.22.01-4.01,4.36-4.02,9.72v241.65a2.00629,2.00629,0,0,1-1.81,1.99c-1.62.16-3.24.3-4.85.43-.04,0-.08.01-.12.01-.88.08-1.76.13995-2.64.21h-.01c-.46-.83-.9-1.68-1.35-2.53a2.0878,2.0878,0,0,1-.22-.93v-253.44c0-1.48.06-2.97.16-4.44a56.85378,56.85378,0,0,1,.75-6.02c1.69-9.29,5.51-15.58,9.85-15.6h611a4.683,4.683,0,0,1,1.84.38995,7.174,7.174,0,0,1,2.27,1.59,14.07149,14.07149,0,0,1,2.23,3.05c2.14,3.77,3.67,9.39,4.21,15.93,0,.06.01.12.01.18.14,1.62006.21,3.27.2,4.92l.14,21.43.09,12.78.27,40.1.1,14.24Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#e6e6e6"></path>
+                                <path
+                                    d="M985.875,784.64191l-275.75.30733a1.19069,1.19069,0,0,1,0-2.38137l275.75-.30733a1.19069,1.19069,0,0,1,0,2.38137Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#cacaca"></path>
+                                <path
+                                    d="M643.60243,427.312h-48.8382a2.60579,2.60579,0,0,0-2.60184,2.60856v77.15H646.211v-77.15A2.60719,2.60719,0,0,0,643.60243,427.312Zm-24.25479,43.83567a5.794,5.794,0,0,1-5.767-5.76695v-8.89858a5.767,5.767,0,0,1,11.534,0v8.89858a5.794,5.794,0,0,1-5.767,5.76695Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#2f2e41"></path>
+                                <path
+                                    d="M724.4741,306.91074H515.70984a6.77694,6.77694,0,0,0-6.76615,6.76611v140.875a6.77263,6.77263,0,0,0,6.76615,6.76611H724.4741a6.77263,6.77263,0,0,0,6.76615-6.76611v-140.875A6.77694,6.77694,0,0,0,724.4741,306.91074Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#3f3d56"></path>
+                                <path
+                                    d="M722.728,311.79652H517.45046a3.62642,3.62642,0,0,0-3.61851,3.626V452.80584a3.62478,3.62478,0,0,0,3.61851,3.61851H722.728a3.62478,3.62478,0,0,0,3.61851-3.61851V315.42256A3.62642,3.62642,0,0,0,722.728,311.79652Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#fff"></path>
+                                <path
+                                    d="M591.99474,504.6028v7.44344a1.45814,1.45814,0,0,0,1.45518,1.45514h51.47357a1.46248,1.46248,0,0,0,1.45514-1.45514V504.6028Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#3f3d56"></path>
+                                <path
+                                    d="M682.74694,516.09149H560.618a2.24664,2.24664,0,0,1-2.19846-2.70942l1.895-9.0003a2.25634,2.25634,0,0,1,2.1981-1.78375H680.85226a2.25633,2.25633,0,0,1,2.19809,1.78375l1.89506,9.0003a2.24664,2.24664,0,0,1-2.19847,2.70942Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#2f2e41"></path>
+                                <rect x="350.44566" y="389.16791" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="357.96856" y="389.16791" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="365.49147" y="389.16791" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="373.01437" y="389.16791" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="380.53728" y="389.16791" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="388.06018" y="389.16791" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="395.58308" y="389.16791" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="403.10599" y="389.16791" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="410.62889" y="389.16791" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="418.1518" y="389.16791" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="425.6747" y="389.16791" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="433.19761" y="389.16791" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="440.72051" y="389.16791" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="448.24341" y="389.16791" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="455.76632" y="389.16791" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="463.28922" y="389.16791" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="350.35677" y="392.92937" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="357.87967" y="392.92937" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="365.40257" y="392.92937" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="372.92548" y="392.92937" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="380.44838" y="392.92937" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="387.97129" y="392.92937" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="395.49419" y="392.92937" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="403.0171" y="392.92937" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="410.54" y="392.92937" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="418.0629" y="392.92937" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="425.58581" y="392.92937" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="433.10871" y="392.92937" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="440.63162" y="392.92937" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="448.15452" y="392.92937" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="455.67743" y="392.92937" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="463.20033" y="392.92937" width="3.76145" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <rect x="386.46671" y="397.44311" width="30.09162" height="2.25687" rx="0.48819"
+                                    fill="#3f3d56"></rect>
+                                <path
+                                    d="M712.41257,330.72615H520.33525a.764.764,0,0,1,0-1.52767H712.41257a.764.764,0,0,1,0,1.52767Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#cacaca"></path>
+                                <ellipse cx="320.47588" cy="205.67152" rx="4.47645" ry="4.57621" fill="#3f3d56">
+                                </ellipse>
+                                <ellipse cx="335.93998" cy="205.67152" rx="4.47645" ry="4.57621" fill="#3f3d56">
+                                </ellipse>
+                                <ellipse cx="351.40408" cy="205.67152" rx="4.47645" ry="4.57621" fill="#3f3d56">
+                                </ellipse>
+                                <path
+                                    d="M703.10187,317.28032H692.117a.83192.83192,0,0,0,0,1.66351h10.98489a.83192.83192,0,0,0,0-1.66351Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#3f3d56"></path>
+                                <path
+                                    d="M703.10187,320.40247H692.117a.83192.83192,0,0,0,0,1.66351h10.98489a.83192.83192,0,0,0,0-1.66351Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#3f3d56"></path>
+                                <path
+                                    d="M703.10187,323.52052H692.117a.83192.83192,0,0,0,0,1.66351h10.98489a.83192.83192,0,0,0,0-1.66351Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#3f3d56"></path>
+                                <rect x="391.51776" y="260.29965" width="30.52939" height="6.52835" rx="3.26417"
+                                    fill="#233c7b"></rect>
+                                <rect x="376.01293" y="273.35635" width="61.53906" height="6.52835" rx="3.26417"
+                                    fill="#e6e6e6"></rect>
+                                <rect x="376.01293" y="286.41305" width="61.53906" height="6.52835" rx="3.26417"
+                                    fill="#e6e6e6"></rect>
+                                <path d="M522.21085,525.91074h-60a8,8,0,1,0,0,16h22v62h16v-62h22a8,8,0,1,0,0-16Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#3f3d56"></path>
+                                <path
+                                    d="M561.81193,638.24766H401.329a64.80541,64.80541,0,0,1-63.91651-55.63574l-5.68067-20.89566a469.07705,469.07705,0,0,0-53.18135-122.90313c-10.74732-17.45376-16.27894-34.34887-3.71483-50.61525q.16047-.20776.31562-.40969c10.07715-13.11622,60.23438-15.95557,76.58545-16.50782q.969-.033,1.94531-.03271h99.81885q.97705,0,1.94483.03271a48.84663,48.84663,0,0,1,42.23632,26.9209,50.33121,50.33121,0,0,1-2.85595,51.52979c-35.06348,52.6709-45.79883,85.69726-34.80811,107.085,10.63135,20.6875,43.22022,31.26465,102.5586,33.28515,15.94629.543,23.26464,12.96,23.31591,24.26661.04981,11.01464-6.98632,23.17578-22.55273,23.84765Q562.581,638.24767,561.81193,638.24766Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#3f3d56"></path>
+                                <path d="M428.59155,780.74756h60a8,8,0,0,0,0-16h-22v-135h-16v135h-22a8,8,0,1,0,0,16Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#3f3d56"></path>
+                                <path
+                                    d="M423.79975,376.2586l1.25772,7.643c.595,3.706,2.74964,29.88575,1.15338,33.00913-.14068-5.83148-11-15-18.03619-12.90658l-11.04232,2.45342-6.85346,1.52484-5.57807,1.22307-16.2091,3.54126c-.02828-.18816-.04881-.38805-.0771-.5762-.03831-.23719-.07662-.47431-.12473-.70943a14.09051,14.09051,0,0,0-1.62929-4.32109,10.78041,10.78041,0,0,1-1.54249,5.08237.86887.86887,0,0,0-.06608.12585,12.734,12.734,0,0,1-.95113,1.33782.21693.21693,0,0,0-.043.03938s-3.33049-53.09-2.98161-53.5799c.25537-.3483.51275-.68674.78194-1.01744.26719-.34044.52658-.66913.80551-1.00182a.43524.43524,0,0,0,.08972-.11019,35.99747,35.99747,0,0,1,2.47894-2.65079c.25581-.24628.52143-.49457.787-.74286a36.94156,36.94156,0,0,1,14.17836-8.17831c.59539-.18307,1.21439-.35053,1.84314-.52006.621-.15766,1.25383-.30758,1.8906-.43788l.21556-.04411c.30371-.06214.61922-.11649.92494-.16882.384-.06837.77014-.127,1.14845-.17376a37.23742,37.23742,0,0,1,14.71449.827c.00981-.002.01181.0078.02162.00579a37.94319,37.94319,0,0,1,11.27552,5.02155c5.98346,3.95072,8.31252,10.39459,9.96652,17.62988C422.77845,371.068,423.2665,373.65257,423.79975,376.2586Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#2f2e41"></path>
+                                <polygon
+                                    points="269.963 611.271 280.299 616.886 307.661 579.054 292.405 570.768 269.963 611.271"
+                                    fill="#ffb6b6"></polygon>
+                                <path
+                                    d="M487.87263,712.8416l18.764,5.87566-2.98659,7.861L516.51682,745.253a5.25274,5.25274,0,0,1-6.19089,7.891l-21.84388-8.299-.81093-9.20623-4.42428,7.21725-8.236-3.129Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#2f2e41"></path>
+                                <path
+                                    d="M541.44384,557.1108a11.61436,11.61436,0,0,1-14.33957-10.5616l-88.16145-31.7164,16.17957-14.07964,83.67774,33.3169a11.67734,11.67734,0,0,1,2.64371,23.04074Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#ffb6b6"></path>
+                                <path
+                                    d="M414.31435,436.26007s-14.84842.3272-16.16854,17.279,31.07893,58.88191,36.09866,65.7965,60.77675,15.42525,60.77675,15.42525l18.954-13.76c-19.91614-12.905-38.0922-22.80011-50.29029-22.355Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#233c7b"></path>
+                                <path
+                                    d="M396.10358,511.05773l3.61818,15.54613s.03555,14.3349,2.57427,16.978c2.521,2.6308,57.95539-2.6514,57.95539-2.6514s-5.87747-23.0997-5.79928-40.57841Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#ffb6b6"></path>
+                                <path
+                                    d="M513.21085,709.91074l-20-11c-.3804-26.02478,15.27314-61.24347,33.83954-98.13244-41.523,7.14129-80.69613,9.429-114.57918.79013a21.90127,21.90127,0,0,1-15.66277-26.4577q.19782-.8223.4575-1.62714c4.05516-12.37247-5.03763-20.128,3.32559-33.73605,21.9964-7.51227,42.89209-9.63367,62-3L474.564,563.21891l59.34251-7.6791a21.8818,21.8818,0,0,1,24.34359,19.29367q.11962.96627.1563,1.94042C546.40726,633.02659,532.95267,683.64243,513.21085,709.91074Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#2f2e41"></path>
+                                <circle cx="393.87913" cy="379.32884" r="24.8051"
+                                    transform="translate(-280.98129 -28.39138) rotate(-11.5642)" fill="#ffb6b6">
+                                </circle>
+                                <path
+                                    d="M388.04818,412.63474l22.861-1.34982a4.64105,4.64105,0,0,1,4.56391,2.8632l6.46045,15.66164,26.85015,22.19208s10.63071,13.528,10.65544,30.9991,3.77169,57.9098,3.77169,57.9098-15.515-21.83866-25.09122-16.03023c-1.62919.98818-2.20224,3.009-3.90878,4.03023-.85124.50941-2.81783.01422-3.67748.52454-13.19586,7.83347-26.95778,15.48647-28.24366,14.14458-2.5247-2.63467-5.58735-16.09761-5.58735-16.09761l-20.92619-76.88719a28.47663,28.47663,0,0,1,4.04936-23.96177c1.46194-2.05831,2.99367-3.58959,4.41714-3.84286C387.43879,422.10991,385.73869,414.94653,388.04818,412.63474Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#233c7b"></path>
+                                <polygon
+                                    points="369.583 643.84 379.233 637.131 357.372 595.887 343.13 605.789 369.583 643.84"
+                                    fill="#ffb6b6"></polygon>
+                                <path
+                                    d="M583.97591,731.21686l-15.12358,13.51825C544.80455,717.93945,526.625,680.35933,511.2189,637.6824c-40.36583-11.8222-70.807-30.88836-97.38186-53.5265-9.01533-7.6285-15.77354-17.42855-8.08468-26.7212q.53917-.65162,1.126-1.2603c9.07832-9.33,32.10064-7.552,45.58458-16.09964l30.12137,32.19638-1.89466,8.63161,56.5772,19.1649a21.85218,21.85218,0,0,1,13.33557,28.01715q-.31785.92028-.71351,1.81124Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#2f2e41"></path>
+                                <path
+                                    d="M576.891,756.17082l15.44747-12.16493,4.79986,6.90485,22.678-.069a5.25274,5.25274,0,0,1,3.01458,9.56592L603.644,773.74523l-8.05494-4.531,3.45652,7.72758-7.23422,5.02881Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#2f2e41"></path>
+                                <path
+                                    d="M421.80643,606.40346a11.61441,11.61441,0,0,1-5.19028-17.03619l-51.75429-78.10162,21.38625-1.62572,47.20245,76.70663a11.67734,11.67734,0,0,1-11.64413,20.0569Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#ffb6b6"></path>
+                                <path
+                                    d="M392.0494,433.54131s-12.10319-8.60787-23.28869,4.19806-10.25152,65.78667-10.35662,74.33058c-.03292,2.67541,3.83042,8.44836,9.15311,15.11659,2.38959,2.99366,5.07331,6.16777,7.83066,9.323,1.59565,1.82593.22076,5.62645,1.823,7.40115,1.59344,1.765,6.16418,1.50458,7.67984,3.14269,7.19414,7.77543,13.0386,13.69413,13.0386,13.69413l23.42024.288c.26422-17.41016-11.65851-32.95068-26.97577-47.97046Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#233c7b"></path>
+                                <path
+                                    d="M424.88167,367.27942c-.91777.4532-1.80819.89058-2.683,1.30433a83.13946,83.13946,0,0,1-10.8551,4.41576,13.66562,13.66562,0,0,0-2.7776-4.54547,10.86019,10.86019,0,0,1-.46033,5.43255,30.70286,30.70286,0,0,1-17.03773-.65784c3.59893,6.6638,6.25792,20.70585,6.06444,33.22883-.08438,6.62136-.9806,12.81674-2.93769,17.26949l-2.51486-7.65117a47.65706,47.65706,0,0,0-1.40091-8.09348c-1.6863-7.443-3.26064-2.46642-5.57807,1.22307l-16.2091,3.54126c-.02828-.18816-.04881-.38805-.0771-.5762-.03831-.23719-.07662-.47431-.12473-.70943a14.09051,14.09051,0,0,0-1.62929-4.32109,10.78041,10.78041,0,0,1-1.54249,5.08237.86887.86887,0,0,0-.06608.12585,12.734,12.734,0,0,1-.95113,1.33782.21693.21693,0,0,0-.043.03938c-10.46491,1.40035-17.801-52.566-2.97962-53.57015.43088-.0292.51277-.68668.77995-1.02719.26719-.34044.52658-.66913.80551-1.00182a.43524.43524,0,0,0,.08972-.11019c.79218-.91748,1.61195-1.79967,2.47894-2.65079.25581-.24628.52143-.49457.787-.74286a37.49718,37.49718,0,0,1,14.18037-8.1685c.59538-.18307,1.21238-.36034,1.84113-.52987.621-.15766,1.25383-.30758,1.8906-.43788l.21556-.04411c.30371-.06214.61922-.11649.92494-.16882.384-.06837.77014-.127,1.14845-.17376a9.39322,9.39322,0,0,1,3.53212,3.09474l10.35538-2.11894q.41153-.08419.829-.139l.01961-.004C413.88488,343.76663,422.1974,354.16122,424.88167,367.27942Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#2f2e41"></path>
+                                <path
+                                    d="M368.44232,357.73831c-2.2173,1.6004-4.55,3.24914-7.25562,3.64571s-5.87314-.91137-6.62192-3.54141c-.91552-3.21573,1.98828-6.14372,4.59815-8.23362l8.2759-6.627a20.01088,20.01088,0,0,1,5.0741-3.2807,6.76234,6.76234,0,0,1,5.85435.19572,6.28705,6.28705,0,0,1,2.7631,5.47358,11.68688,11.68688,0,0,1-2.04963,5.99576,21.08854,21.08854,0,0,1-13.6911,9.30674"
+                                    transform="translate(-212.93432 -115.05076)" fill="#2f2e41"></path>
+                                <path d="M431.21085,529.91074h-60a8,8,0,1,0,0,16h22v62h16v-62h22a8,8,0,0,0,0-16Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#3f3d56"></path>
+                                <path
+                                    d="M652.875,783.64191l-438.75.30733a1.19069,1.19069,0,0,1,0-2.38137l438.75-.30733a1.19069,1.19069,0,0,1,0,2.38137Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#cacaca"></path>
+                                <polygon
+                                    points="567.621 535.776 577.388 546.42 623.092 513.812 608.676 498.102 567.621 535.776"
+                                    fill="#a0616a"></polygon>
+                                <path
+                                    d="M800.77085,665.89072v-.01l-.99-10.63-.45-.21-2.63-1.25-12.41-5.87-.26-.28-2.49-2.72-13.79,12.66,18.68,20.36,12.81006,13.96.43-.4a18.11155,18.11155,0,0,0,1.1-25.61Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#2f2e41"></path>
+                                <polygon
+                                    points="517.018 641.96 530.84 646.159 553.614 594.841 533.213 588.644 517.018 641.96"
+                                    fill="#a0616a"></polygon>
+                                <path
+                                    d="M765.74088,768.50071a17.95663,17.95663,0,0,0-10.72-8.8l-6.27-8.65-.49.04-16.57,1.52-.37-.11005-3.52-1.07-5.44,17.91,44.56994,13.54.17-.57A18.05329,18.05329,0,0,0,765.74088,768.50071Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#2f2e41"></path>
+                                <path id="b2eb929e-713e-4b71-a146-193a455bcc79-305" data-name="Path 17"
+                                    d="M843.93174,488.31824s88.25133,85.20743,32.46032,111.582H859.14813s-5.182-18.41014-17.04545-33.93528c-1.62919-2.13206-7.73258-1.699-9.42755-3.77681-10.34924-12.6871-21.56911-23.583-29.318-23.15039l1.85373,58.873,3,21c1.57523,10.85587-42.8823,105.64293-42.8823,105.64293l-27.94326-10.9822s29.11333-78.07121,29.45437-89.3263L743.509,500.49065Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#2f2e41"></path>
+                                <path
+                                    d="M851.29087,492.52073a5.258,5.258,0,0,1-1.72,1.56,12.15105,12.15105,0,0,1-3.61,1.34c-19.87,4.51-84.78,13.86-101.63,9.4-2.07-.54-3.42-1.3-3.86-2.3-1.41-3.16-1.23-16.51-.4-32.63.15-3.02,3.48-6.29,3.68-9.45.14-2.37-2.85-4.6-2.69-7.01,1.1-16.3,2.52-32.91,3.47-43.41.6-6.75,1.01-10.97,1.01-10.97l-10.25-64.63.48-.79.54-.26995,33.05-16.36,1.8-4.6a7.1182,7.1182,0,0,1,6.59-4.51l21.77-.09a7.09451,7.09451,0,0,1,5.79,2.93994l5.9,8.17,39,25-.15.46-18.3,55.69-.09,4.34v.01l-.68,34.9,1.89,4.73-2.13,7.76s.98,9.06995,6.23,15.81c4.76,6.12,10.82,12.5,13.56,17.68v.01C852.06083,488.16074,852.57084,490.64072,851.29087,492.52073Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#233c7b"></path>
+                                <path id="e9cec503-1de8-4692-84d1-4d2e854ea0bd-306" data-name="Path 18"
+                                    d="M880.62942,594.83867l-4.71711,5.96044s-43.3834,30.35164-44.87313,33.18812l-6.85625,6.48779-16.58951-17.73338,8.62719-10.81331a67.72416,67.72416,0,0,1,25.97924-19.88955h0l13.22175-11.73036Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#2f2e41"></path>
+                                <path
+                                    d="M853.06311,509.65128,845.16283,433.181,843.0776,401.7083l22.11265-3.99841s-.87618,22.50391,2.0206,35.20085c2.85864,12.52919.37923,75.06164.20259,76.73371a10.75842,10.75842,0,1,1-14.35033.00683Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#a0616a"></path>
+                                <path
+                                    d="M874.63334,449.02771l-28.42249,5.883-2.48527-9.90756-2.89721-3.07361-5.78863-30.32336-8.30507-17.763,2.15885-60.7439,21.09371,11.18744.02574.0198c3.22624,3.50215,5.44984,8.51459,9.147,13.54426,11.65,15.84875,12.942,54.35986,12.58948,75.45422-.0058.34622.3424.71166.76073,1.0962a11.69542,11.69542,0,0,1,2.12319,14.62647Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#233c7b"></path>
+                                <path
+                                    d="M724.3586,512.65128l7.90028-76.47031,2.08523-31.47267-22.11265-3.99841s.87618,22.50391-2.02061,35.20085c-2.85863,12.52919-.37922,75.06164-.20258,76.73371a10.75841,10.75841,0,1,0,14.35033.00683Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#a0616a"></path>
+                                <path
+                                    d="M750.69083,396.84074l-6.16,13.18-2.15,4.59-5.79,30.31994-2.89,3.07-2.49,9.91-1.17-.24-21.1-4.37-6.15-1.27a11.69074,11.69074,0,0,1,2.12-14.63c.42-.38.76995-.75.76-1.1-.35-21.09.94-59.6,12.59-75.45,3.7-5.03,5.92-10.04,9.15-13.54.01-.00995.01-.02.01995-.02l7.86005-12.87.48-.79.54-.26995Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#233c7b"></path>
+                                <circle id="e944ea38-edcc-43c9-bf24-dbaf21228ba4" data-name="Ellipse 5" cx="575.07324"
+                                    cy="157.58665" r="28.96563" fill="#a0616a"></circle>
+                                <path
+                                    d="M820.57084,259.9307c-.1-4.94-.66-11.26-4.12-16.3-2.92-4.24-8.81-7.6-14.3-5.92a5.94553,5.94553,0,0,0-2.96-5.48c-2.08-1.27-4.58-1.5-6.79-1.71-5.57-.52-11.34-1.06-16.98.01-6.33,1.2-11.51,4.46-14.2,8.95l-.06.14-.55,2.66a2.52491,2.52491,0,0,1-1.25,1.7,2.48125,2.48125,0,0,1-2.11005.15,2.29045,2.29045,0,0,0-3.07,2.48005l.15,1.06-1.59-.3a2.28362,2.28362,0,0,0-2.57,3.05l.44,1.21a2.44768,2.44768,0,0,0-1.75.77,2.23725,2.23725,0,0,0-.3,2.62,20.81224,20.81224,0,0,0,7.34,7.38,17.30344,17.30344,0,0,0,4.37,1.87q.48.135.99.24a103.06214,103.06214,0,0,0,37.35,1.12,21.15736,21.15736,0,0,0-.83,7.56c.4,3.19,2.27,5.82,4.77,6.7a10.00084,10.00084,0,0,0,1.74.42,10.734,10.734,0,0,1,1.67.41,4.86346,4.86346,0,0,1,1.42,8.32s2.62,2.17,2.95,2.06a6.73331,6.73331,0,0,0,3.08-2.74C818.40086,281.1807,820.81083,271.62071,820.57084,259.9307Z"
+                                    transform="translate(-212.93432 -115.05076)" fill="#2f2e41"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="container">
                     <div class="row">
                         <div class="col-md-4 text-center">
                             <div class="border-rounded">
-                                <img src="https://ineuron.ai/images/landing-page/statistics/books-icon.svg" alt="icon"
-                                    width="200">
+                                <img src="./assets/books-icon.svg" alt="icon" width="200">
                                 <h2 class="text-secondary font-bold">
                                     <span>400</span>+
                                 </h2>
@@ -169,8 +506,7 @@
                         </div>
                         <div class="col-md-4 text-center">
                             <div class="border-rounded">
-                                <img src="https://ineuron.ai/images/landing-page/statistics/student-iocn.svg" alt="icon"
-                                    width="200">
+                                <img src="./assets/student-iocn.svg" alt="icon" width="200">
                                 <h2 class="text-secondary font-bold">
                                     <span>400000</span>+
                                 </h2>
@@ -179,8 +515,7 @@
                         </div>
                         <div class="col-md-4 text-center">
                             <div class="border-rounded">
-                                <img src="https://ineuron.ai/images/landing-page/statistics/credit-card-icon.svg"
-                                    alt="icon" width="200">
+                                <img src="./assets/credit-card-icon.svg" alt="icon" width="200">
                                 <h2 class="text-secondary font-bold">
                                     <span>10000</span>+
                                 </h2>
@@ -189,11 +524,12 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
 
-        <section class="archievers bg-grey pb-0">
+        <section class="archievers pb-0" style="background-image: linear-gradient(90deg, rgba(40,40,40,0.5), transparent), url('./assets/banner-bg.svg'); background-repeat:no-repeat; background-size:cover;
+        ">
             <div class="wrap">
                 <div class="section-title">
                     <h3 class="text-center display-4 text-white">Our Achiever’s Work with</h3>
@@ -293,10 +629,6 @@
                                 class="px-3">
                         </div>
                         <div class="item">
-                            <img src="https://ineuron.ai/images/landing-page/companies/divvspace.png" alt="divvespace"
-                                class="px-3">
-                        </div>
-                        <div class="item">
                             <img src="https://ineuron.ai/images/landing-page/companies/mindtree.png" alt="mindtree"
                                 class="px-3">
                         </div>
@@ -385,249 +717,193 @@
             </div>
         </section>
 
-        <section class="hall-of-fame">
-            <div class="wrap">
-                <div class="section-title">
-                    <h2 class="text-center display-4 text-warning">Hall of fame</h2>
-                </div>
-                <div class="container p-5">
-                    <div class="owl-carousel hall-of-fame">
-                        <div class="item">
-                            <div class="card bg-grey text-center">
-                                <div class="card-content p-5">
-                                    <div class="profile">
-                                        <a href="#">
-                                            <figure class="rounded-circle">
-                                                <img src="https://hall-of-fame-cdn.ineuron.ai/profilePictures/62dc33aba9f208001ac2a172.jpeg"
-                                                    alt="icon" width="200" class="rounded-circle">
-                                            </figure>
-                                        </a>
-                                    </div>
-                                    <h2 class="font-bold">
-                                        <a href="#">Aakash B</a>
-                                    </h2>
-                                    <p>ECOLAB, trainee software developer</p>
-                                    <p>I have enrolled for your ML course two years back , Python you taught in that
-                                        course was</p>
-                                    <a href="#" class="text-link">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
-                                            viewBox="0 0 24 24" class="tw-text-blue-500 tw-w-8 tw-h-auto" height="40"
-                                            width="40" xmlns="http://www.w3.org/2000/svg">
-                                            <g>
-                                                <path fill="none" d="M0 0h24v24H0z"></path>
-                                                <path fill-rule="nonzero"
-                                                    d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 0 1-1.548-1.549 1.548 1.548 0 1 1 1.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z">
-                                                </path>
-                                            </g>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card bg-grey text-center">
-                                <div class="card-content p-5">
-                                    <div class="profile">
-                                    <a href="#">
-                                        <figure class="rounded-circle">
-                                            <img src="https://hall-of-fame-cdn.ineuron.ai/profilePictures/62dc33aba9f208001ac2a172.jpeg"
-                                                alt="icon" width="200" class="rounded-circle">
-                                        </figure>
-                                    </a>
-                                    </div>
-                                    <h2 class="font-bold">
-                                        <a href="#">Aakash B</a>
-                                    </h2>
-                                    <p>ECOLAB, trainee software developer</p>
-                                    <p>I have enrolled for your ML course two years back , Python you taught in that
-                                        course was</p>
-                                    <a href="#" class="text-link">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
-                                            viewBox="0 0 24 24" class="tw-text-blue-500 tw-w-8 tw-h-auto" height="40"
-                                            width="40" xmlns="http://www.w3.org/2000/svg">
-                                            <g>
-                                                <path fill="none" d="M0 0h24v24H0z"></path>
-                                                <path fill-rule="nonzero"
-                                                    d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 0 1-1.548-1.549 1.548 1.548 0 1 1 1.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z">
-                                                </path>
-                                            </g>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card bg-grey text-center">
-                                <div class="card-content p-5">
-                                    <div class="profile">
-                                        <a href="#">
-                                            <figure class="rounded-circle">
-                                                <img src="https://hall-of-fame-cdn.ineuron.ai/profilePictures/62dc33aba9f208001ac2a172.jpeg"
-                                                    alt="icon" width="200" class="rounded-circle">
-                                            </figure>
-                                        </a>
-                                    </div>
-                                    <h2 class="font-bold">
-                                        <a href="#">Aakash B</a>
-                                    </h2>
-                                    <p>ECOLAB, trainee software developer</p>
-                                    <p>I have enrolled for your ML course two years back , Python you taught in that
-                                        course was</p>
-                                    <a href="#" class="text-link">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
-                                            viewBox="0 0 24 24" class="tw-text-blue-500 tw-w-8 tw-h-auto" height="40"
-                                            width="40" xmlns="http://www.w3.org/2000/svg">
-                                            <g>
-                                                <path fill="none" d="M0 0h24v24H0z"></path>
-                                                <path fill-rule="nonzero"
-                                                    d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 0 1-1.548-1.549 1.548 1.548 0 1 1 1.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z">
-                                                </path>
-                                            </g>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card bg-grey text-center">
-                                <div class="card-content p-5">
-                                    <div class="profile">
-                                        <a href="#">
-                                            <figure class="rounded-circle">
-                                                <img src="https://hall-of-fame-cdn.ineuron.ai/profilePictures/62dc33aba9f208001ac2a172.jpeg"
-                                                    alt="icon" width="200" class="rounded-circle">
-                                            </figure>
-                                        </a>
-                                    </div>
-                                    <h2 class="font-bold">
-                                        <a href="#">Aakash B</a>
-                                    </h2>
-                                    <p>ECOLAB, trainee software developer</p>
-                                    <p>I have enrolled for your ML course two years back , Python you taught in that
-                                        course was</p>
-                                    <a href="#" class="text-link">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
-                                            viewBox="0 0 24 24" class="tw-text-blue-500 tw-w-8 tw-h-auto" height="40"
-                                            width="40" xmlns="http://www.w3.org/2000/svg">
-                                            <g>
-                                                <path fill="none" d="M0 0h24v24H0z"></path>
-                                                <path fill-rule="nonzero"
-                                                    d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 0 1-1.548-1.549 1.548 1.548 0 1 1 1.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z">
-                                                </path>
-                                            </g>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <a href="#" class="btn font-bold border-0">View More</a>
-                </div>
-            </div>
-        </section>
-        <hr>
+        <!-- <section class="hall-of-fame" style="background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZYCtySKZVT27y0ipMWeHCPdLCP6naqcPG-g&usqp=CAU); background-size: cover;"> -->
+
         <section class="what-you-will-learn">
             <div class="wrap">
                 <div class="section-title">
-                    <h2 class="text-center display-4 text-warning">What you will learn</h2>
+                    <h2 class="text-center display-4">What you will learn</h2>
                 </div>
-                <div class="container p-5">
-                    <div class="d-flex pb-5 justify-content-around">
-                        <button class="btn btn-secondary">Live Programs</button>
-                        <button class="btn btn-outline-primary text-white">Affordable Programs</button>
-                        <button class="btn btn-outline-primary text-white">Community Programs</button>
-                        <button class="btn btn-outline-primary text-white">One Neuron</button>
-                        <button class="btn btn-outline-primary text-white">Test Series</button>
+                <div class="container-fluid p-5">
+                    <div class="container p-0 px-5">
+                        <div class="d-flex pb-5 justify-content-around flex-wrap">
+                            <button class="btn btn-secondary">Live Programs</button>
+                            <button class="btn btn-outline-primary text-white">Affordable Programs</button>
+                            <button class="btn btn-outline-primary text-white">Community Programs</button>
+                            <button class="btn btn-outline-primary text-white">One Neuron</button>
+                            <button class="btn btn-outline-primary text-white">Test Series</button>
+                        </div>
+
+                        <div class="text-center pb-5">
+                            <h4 class="font-bold text-danger">Live Programs</h4>
+                            <p>Get your program with live "instructor led" learning.</p>
+                        </div>
                     </div>
 
-                    <div class="text-center pb-5">
-                        <h4 class="font-bold text-secondary">Live Programs</h4>
-                        <p>Get your program with live "instructor led" learning.</p>
-                    </div>
 
-                    <div class="owl-carousel what-you-will-learn">
-                        <div class="item">
+                    <div class="row">
+                        <div class="col-md-3 mb-4">
                             <div class="card bg-grey">
                                 <div class="card-content p-3">
                                     <a href="#">
                                         <figure>
-                                            <img src="https://cdn.ineuron.ai/assets/uploads/thumbnails/62bf3edd6960793aeb3c0dbb.jpg"
-                                                alt="icon" width="200">
+                                            <img src="./assets/62cbe68f696079a76b3d5d89.jpg" class="w-100" alt="icon"
+                                                width="200">
                                         </figure>
                                     </a>
-                                    <h5 class="font-bold text-secondary">
+                                    <h5 class="font-bold">
                                         <a href="#">Full Stack Web Development using Python in Hindi</a>
                                     </h5>
                                     <p>Amresh Bharti</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <p class="font-bold-900 mb-0">₹11000.00</p>
-                                        <button class="btn btn-secondary">Link</button>
+                                        <a class="btn btn-secondary">Link</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="col-md-3 mb-4">
                             <div class="card bg-grey">
                                 <div class="card-content p-3">
                                     <a href="#">
                                         <figure>
-                                            <img src="https://cdn.ineuron.ai/assets/uploads/thumbnails/62bf3edd6960793aeb3c0dbb.jpg"
-                                                alt="icon" width="200">
+                                            <img src="./assets/62dc015a8a6db0614a457d66.jpg" class="w-100" alt="icon"
+                                                width="200">
                                         </figure>
                                     </a>
-                                    <h5 class="font-bold text-secondary">
+                                    <h5 class="font-bold">
+                                        <a href="#">YouTube Mastery Batch 2 in Hindi</a>
+                                    </h5>
+                                    <p>Amresh Bharti</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="font-bold-900 mb-0">₹11000.00</p>
+                                        <a class="btn btn-secondary">Link</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card bg-grey">
+                                <div class="card-content p-3">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="./assets/62dbfcbf8a6db091f84577dd.jpg" class="w-100" alt="icon"
+                                                width="200">
+                                        </figure>
+                                    </a>
+                                    <h5 class="font-bold">
+                                        <a href="#">Digital Marketing Batch 2 in Hindi</a>
+                                    </h5>
+                                    <p>Amresh Bharti</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="font-bold-900 mb-0">₹11000.00</p>
+                                        <a class="btn btn-secondary">Link</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card bg-grey">
+                                <div class="card-content p-3">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="./assets/62d142aa5af3c767d4428edf.jpg" class="w-100" alt="icon"
+                                                width="200">
+                                        </figure>
+                                    </a>
+                                    <h5 class="font-bold">
+                                        <a href="#">DSA for FAANG preparation with Python and JavaScript
+
+                                        </a>
+                                    </h5>
+                                    <p>Amresh Bharti</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="font-bold-900 mb-0">₹11000.00</p>
+                                        <a class="btn btn-secondary">Link</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card bg-grey">
+                                <div class="card-content p-3">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="./assets/62eaa6ba766d6539c53164bd.jpg" class="w-100" alt="icon"
+                                                width="200">
+                                        </figure>
+                                    </a>
+                                    <h5 class="font-bold">
+                                        <a href="#">Full Stack Data Science BootCamp 2.0</a>
+                                    </h5>
+                                    <p>Amresh Bharti</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="font-bold-900 mb-0">₹11000.00</p>
+                                        <a class="btn btn-secondary">Link</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="card bg-grey">
+                                <div class="card-content p-3">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="./assets/62bf3edd6960793aeb3c0dbb.jpg" class="w-100" alt="icon"
+                                                width="200">
+                                        </figure>
+                                    </a>
+                                    <h5 class="font-bold">
                                         <a href="#">Full Stack Web Development using Python in Hindi</a>
                                     </h5>
                                     <p>Amresh Bharti</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <p class="font-bold-900 mb-0">₹11000.00</p>
-                                        <button class="btn btn-secondary">Link</button>
+                                        <a class="btn btn-secondary">Link</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="col-md-3 mb-4">
                             <div class="card bg-grey">
                                 <div class="card-content p-3">
                                     <a href="#">
                                         <figure>
-                                            <img src="https://cdn.ineuron.ai/assets/uploads/thumbnails/62bf3edd6960793aeb3c0dbb.jpg"
-                                                alt="icon" width="200">
+                                            <img src="./assets/62dc015a8a6db0614a457d66.jpg" class="w-100" alt="icon"
+                                                width="200">
                                         </figure>
                                     </a>
-                                    <h5 class="font-bold text-secondary">
-                                        <a href="#">Full Stack Web Development using Python in Hindi</a>
+                                    <h5 class="font-bold">
+                                        <a href="#">YouTube Mastery Batch 2 in Hindi</a>
                                     </h5>
                                     <p>Amresh Bharti</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <p class="font-bold-900 mb-0">₹11000.00</p>
-                                        <button class="btn btn-secondary">Link</button>
+                                        <a class="btn btn-secondary">Link</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="col-md-3 mb-4">
                             <div class="card bg-grey">
                                 <div class="card-content p-3">
                                     <a href="#">
                                         <figure>
-                                            <img src="https://cdn.ineuron.ai/assets/uploads/thumbnails/62bf3edd6960793aeb3c0dbb.jpg"
-                                                alt="icon" width="200">
+                                            <img src="./assets/62dbfcbf8a6db091f84577dd.jpg" class="w-100" alt="icon"
+                                                width="200">
                                         </figure>
                                     </a>
-                                    <h5 class="font-bold text-secondary">
-                                        <a href="#">Full Stack Web Development using Python in Hindi</a>
+                                    <h5 class="font-bold">
+                                        <a href="#">Digital Marketing Batch 2 in Hindi</a>
                                     </h5>
                                     <p>Amresh Bharti</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <p class="font-bold-900 mb-0">₹11000.00</p>
-                                        <button class="btn btn-secondary">Link</button>
+                                        <a class="btn btn-secondary">Link</a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>                        
                     </div>
                 </div>
 
@@ -636,7 +912,8 @@
 
 
 
-        <section class="hackathon bg-grey pb-0" style="background-image: linear-gradient(90deg, rgba(50,50,50,1), rgba(50,50,50,0.9)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRotbaylrsa2hYK0FYeZS8g-d_djJOC2OZDRA&usqp=CAU); background-repeat:no-repeat; background-size:cover;">
+        <section class="hackathon bg-grey pb-0"
+            style="background-image: linear-gradient(90deg, rgba(50,50,50,1), rgba(50,50,50,0.9)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRotbaylrsa2hYK0FYeZS8g-d_djJOC2OZDRA&usqp=CAU); background-repeat:no-repeat; background-size:cover;">
             <div class="wrap">
                 <div class="section-title">
                     <h3 class="text-center display-4 text-white">Hackathon companies</h3>
@@ -736,10 +1013,6 @@
                                 class="px-3">
                         </div>
                         <div class="item">
-                            <img src="https://ineuron.ai/images/landing-page/companies/divvspace.png" alt="divvespace"
-                                class="px-3">
-                        </div>
-                        <div class="item">
                             <img src="https://ineuron.ai/images/landing-page/companies/mindtree.png" alt="mindtree"
                                 class="px-3">
                         </div>
@@ -828,307 +1101,748 @@
             </div>
         </section>
 
-        <section class="our-products" >
+        <section class="products">
             <div class="wrap">
                 <div class="section-title">
-                    <h2 class="text-center display-4 text-warning">Our Products</h2>
-                </div>                
-                <div class="container p-5">
-                    <div class="our-products">
-                        <div class="row justify-content-center">
-                            <div class="col-md-4 pb-4">
-                                <div class="product text-center">
-                                    <a href="#">
-                                        <figure>
-                                            <img src="https://ineuron.ai/images/landing-page/products/jobPortal-icon.svg"
-                                                alt="icon" class="icon">
-                                        </figure>
+                    <h2 class="text-center display-4">Our Products</h2>
+                </div>
+                <div class="container-fluid p-5">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="currentIllo" width="100%" height="353.12578"
+                                viewBox="0 0 851.034 593.12578"
+                                class="injected-svg DownloadModal__ImageFile-sc-p17csy-5 iIfSkb grid_media"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g>
+                                    <polygon
+                                        points="106.02869 527.61269 119.19265 527.9242 114.22039 567.99929 105.30017 567.78878 106.02869 527.61269"
+                                        fill="#ffb6b6"></polygon>
+                                    <path
+                                        d="M135.90429,586.39896l-.00011-.00003c0-1.08826-.56607-2.07243-1.4405-2.50438l-9.82449-4.85313-6.6981-15.53484-.10149-15.65075-13.80219-1.62303-1.99616,9.97012s4.11002-.61326-.96433,3.79213c-5.0743,4.40542-2.63095,13.02367-2.63095,13.02367l-1.10666,16.10879h9.13381l.49029-10.01818c7.10401,3.01419,8.84642,10.01818,8.84642,10.01818h17.70582c1.31918,0,2.38858-1.22162,2.38858-2.72852h0l.00005-.00003Z"
+                                        fill="#2f2e41"></path>
+                                </g>
+                                <g>
+                                    <polygon
+                                        points="125.31118 528.05377 138.47514 528.36528 133.50287 568.44037 124.58268 568.22986 125.31118 528.05377"
+                                        fill="#ffb6b6"></polygon>
+                                    <path
+                                        d="M155.18678,586.84004l-.00011-.00003c0-1.08826-.56607-2.07243-1.4405-2.50438l-9.82449-4.85313-6.6981-15.53484-.10149-15.65075-13.80219-1.62303-1.99616,9.97012s4.11002-.61326-.96433,3.79213c-5.0743,4.40542-2.63095,13.02367-2.63095,13.02367l-1.10666,16.10879h9.13383l.49029-10.01818c7.10401,3.01419,8.84642,10.01818,8.84642,10.01818h17.70582c1.31918,0,2.38858-1.22162,2.38858-2.72852h0l.00003-.00003Z"
+                                        fill="#2f2e41"></path>
+                                </g>
+                                <path
+                                    d="M110.2148,292.9908h0l-14.92335,35.63332c-4.97455,11.87802-6.55102,24.90459-4.5535,37.62636l7.2531,175.05372h28.67661l12.51705-155.88562,2.47005,61.57671-28.70756,87.73249h28.23487l36.24153-87.7325,2.68683-67.55462-12.87551-52.42174-57.02011-34.02814h0Z"
+                                    fill="#2f2e41"></path>
+                                <g>
+                                    <path id="b-341"
+                                        d="M514.50928,140.51913h0V51.51363C514.50928,23.06344,491.44586,0,462.99567,0h-188.5741c-28.4502-.00047-51.51404,23.06261-51.5145,51.51281v488.29096c0,28.4502,23.06343,51.51361,51.51364,51.51361h188.57251c28.4502,0,51.51361-23.06342,51.51361-51.51361V203.87473h.00024c1.79193,0,3.24463-1.45264,3.24469-3.24458l.00226-56.86618c.00006-1.79205-1.45264-3.24484-3.24469-3.24484l-.00006,.00002Z"
+                                        fill="#3f3d56"></path>
+                                    <path id="c-342"
+                                        d="M504.8356,47.23048v495.18908c-30.10516-1.84918-14.7923,37.81769-39.05603,39.06433h-192.44296c-21.57881,.00323-39.07541-17.48553-39.08183-39.06433V47.23048c.00642-21.57802,17.50214-39.06627,39.08015-39.06351h14.19235c-3.8649,9.50451,27.32773,12.59678,29.71896,12.59981h98.55893c10.26028-.01299,35.01379-10.38471,34.11304-12.59981h15.85388c21.56973,.00369,39.05566,17.4863,39.06351,39.05603l.00006,.00748h-.00006Z"
+                                        fill="#fff"></path>
+                                    <g>
+                                        <path
+                                            d="M221.39043,151.42123c-1.37241,0-2.48843,1.11603-2.48843,2.48843v19.90749c0,1.37241,1.11603,2.48843,2.48843,2.48843s2.48843-1.11603,2.48843-2.48843v-19.90749c0-1.37241-1.11603-2.48843-2.48843-2.48843Z"
+                                            fill="#3f3d56"></path>
+                                        <path
+                                            d="M221.39043,211.14368c-1.37241,0-2.48843,1.11603-2.48843,2.48843v38.57074c0,1.37241,1.11603,2.48843,2.48843,2.48843s2.48843-1.11603,2.48843-2.48843v-38.57074c0-1.37241-1.11603-2.48843-2.48843-2.48843Z"
+                                            fill="#3f3d56"></path>
+                                        <path
+                                            d="M221.39043,265.88925c-1.37241,0-2.48843,1.11603-2.48843,2.48843v38.57074c0,1.37241,1.11603,2.48843,2.48843,2.48843s2.48843-1.11603,2.48843-2.48843v-38.57074c0-1.37241-1.11603-2.48843-2.48843-2.48843Z"
+                                            fill="#3f3d56"></path>
+                                    </g>
+                                </g>
+                                <g>
+                                    <polygon
+                                        points="808.33052 559.84212 796.52176 567.9306 759.70145 526.23338 777.12972 514.29506 808.33052 559.84212"
+                                        fill="#ffb6b6"></polygon>
+                                    <path
+                                        d="M767.69144,587.29035h0c.05656,.87112,1.23174,3.00255,1.72507,3.72263h0c1.51638,2.21337,4.53988,2.77842,6.7533,1.26201l36.5679-25.05266c1.50995-1.03447,1.89546-3.09716,.86095-4.60716l-1.04302-1.52244s-1.32584-5.81507-8.91405-8.90331c0,0-1.60346,7.58732-13.25885,5.40924l-4.5712-2.29767-7.36681,20.91319-7.49361,6.61402c-1.63951,1.44699-3.40123,2.27995-3.25956,4.462l-.00015,.0001,.00003,.00005Z"
+                                        fill="#2f2e41"></path>
+                                </g>
+                                <g>
+                                    <polygon
+                                        points="721.2688 581.31561 706.95551 581.31421 700.14661 526.10522 717.66663 528.28687 721.2688 581.31561"
+                                        fill="#ffb6b6"></polygon>
+                                    <path
+                                        d="M672.22968,580.99091h0c-.44568,.75061-.68085,3.17316-.68085,4.04602h0c0,2.68298,2.17493,4.85797,4.85797,4.85797h44.3266c1.83032,0,3.31415-1.48376,3.31415-3.31415v-1.84546s2.19281-5.54657-2.32178-12.383c0,0-5.61102,5.35303-13.9953-3.03125l-2.47247-4.47906-17.89716,13.08905-9.9201,1.22107c-2.17035,.26709-4.09448-.04144-5.21088,1.83875h-.00018v.00006Z"
+                                        fill="#2f2e41"></path>
+                                </g>
+                                <path id="d-343"
+                                    d="M671.08496,371.50479l1.07708,13.01898-2.14348,10.35302,3.903,10.91486,4.77447,57.71036,24.88391,99.49799,19,4-9.12122-99.3869,7.0752-81.9783-49.44897-14.13Z"
+                                    fill="#2f2e41"></path>
+                                <path id="e-344"
+                                    d="M751.82495,314.9848l-72.66602,1.009-8.07404,55.508,49.44897,23.21301-1.57738,79.27601,55.07146,79.7196,29.33117-16.75766-49.14889-67.70036,13.7626-112.8896-16.14801-41.37799h.00012Z"
+                                    fill="#2f2e41"></path>
+                                <path id="f-345"
+                                    d="M698.034,184.4868l-12.82001,16.453,6.05603,126.15501,47.43402-1.009,8.07404-110.007-10.09198-28.259-3.65198-6.33299-4.36737-8.19995-28,2-2.63263,9.19994h-.00012Z"
+                                    fill="#e6e6e6"></path>
+                                <path id="g-346"
+                                    d="M679.10297,262.50378l2.5636,25.78308-3.1496,29.66953-3.93701,8.04361-9,32s-9.185,13.99399,11,15,86.34595-5.54117,86.34595-5.54117c0,0,8.2489-.20343,4.65405-17.45883-5.80714-9.98025-2.06299-24.04361-2.06299-24.04361l-7.63702-28.13556,2.01801-26.23999,14.13-68.629c-12.54883-9.86151-26.60425-16.91971-41.88403-21.70001l-13.38254,35.19014-19.92545-32.16216-7.56903,5.55099c-10.20923,2.67712-19.19403,6.79395-26.29999,13.12l14.13605,59.55298Z"
+                                    fill="#2f2e41"></path>
+                                <path id="h-347"
+                                    d="M439.54602,201.29082h-142.435c-9.76315-.01102-17.67499-7.92285-17.686-17.686v-61.22501c.01102-9.76314,7.92288-17.67499,17.686-17.686,45.45001-12.592,93.11798-11.412,142.435,0,9.76276,.01155,17.67401,7.92325,17.68503,17.686v61.22501c-.01102,9.76276-7.92224,17.67444-17.685,17.686h-.00003Z"
+                                    fill="#f2f2f2"></path>
+                                <g id="i" transform="translate(0 -32.533)">
+                                    <path id="j-348"
+                                        d="M454.05698,297.98982h-171.45599c-1.75281-.00165-3.17334-1.42218-3.17499-3.17499v-42.53c.0022-1.75259,1.42242-3.17279,3.17499-3.17499h171.45599c1.75256,.0022,3.17279,1.42239,3.17499,3.17499v42.53101c-.0022,1.75259-1.42242,3.17279-3.17499,3.17499v-.00101Zm-171.45599-47.61002c-1.05164,.0011-1.90393,.85333-1.90503,1.905v42.53101c.0011,1.05167,.85339,1.9039,1.90503,1.905h171.45599c1.05164-.0011,1.90393-.85333,1.90503-1.905v-42.53101c-.0011-1.05167-.85339-1.9039-1.90503-1.905h-171.45599Z"
+                                        fill="#e6e6e6"></path>
+                                    <path id="k-349"
+                                        d="M335.62497,264.6558c-1.22748,.02594-2.20148,1.04202-2.17554,2.26947,.02521,1.19095,.98462,2.15036,2.17554,2.17554h104.77802c1.22693,.04694,2.25952-.90961,2.30652-2.13651,.04694-1.2269-.90961-2.25955-2.13654-2.30649h-104.948v-.00201Z"
+                                        fill="#e6e6e6"></path>
+                                    <path id="l-350"
+                                        d="M335.62497,277.99479c-1.22748,.02594-2.20148,1.04202-2.17554,2.26947,.02521,1.19095,.98462,2.15036,2.17554,2.17554h104.77802c1.22693,.04694,2.25952-.90961,2.30652-2.13651,.04694-1.2269-.90961-2.25955-2.13654-2.30649h-104.948v-.00201Z"
+                                        fill="#e6e6e6"></path>
+                                    <circle id="m" cx="306.19202" cy="273.55079" r="8.89099" fill="#e6e6e6"></circle>
+                                </g>
+                                <g id="n" transform="translate(0 0.223)">
+                                    <path id="o-351"
+                                        d="M454.05698,473.98978h-171.45599c-1.75281-.00165-3.17334-1.42218-3.17499-3.17499v-42.52997c.0022-1.75256,1.42242-3.17279,3.17499-3.17499h171.45599c1.75256,.0022,3.17279,1.42242,3.17499,3.17499v42.53101c-.0022,1.75256-1.42242,3.17279-3.17499,3.17499v-.00104Zm-171.45599-47.60999c-1.0517,.0011-1.90393,.85333-1.90503,1.90503v42.53101c.0011,1.0517,.85333,1.90393,1.90503,1.90503l151.97897-1.49786c1.0517-.0011,16.9989-5.9483,17-7l4.38202-35.93817c-.0011-1.0517-.85333-1.90393-1.90503-1.90503h-171.45596Z"
+                                        fill="#e6e6e6"></path>
+                                    <path id="p-352"
+                                        d="M335.62497,446.9958c-1.22748-.02594-2.24353,.94806-2.26947,2.17554s.94806,2.24353,2.17554,2.26947c.03131,.00067,.06262,.00067,.09393,0h104.77802c1.22693,.04694,2.25952-.90961,2.30652-2.13647,.04694-1.22693-.90961-2.25958-2.13654-2.30652h-104.948v-.00201Z"
+                                        fill="#e6e6e6"></path>
+                                    <circle id="q" cx="306.19202" cy="449.55079" r="8.89099" fill="#e6e6e6"></circle>
+                                </g>
+                                <g id="r" transform="translate(0 0.223)">
+                                    <path id="s-353"
+                                        d="M454.05698,385.98978h-171.45599c-1.75281-.00165-3.17334-1.42218-3.17499-3.17499v-42.52997c.0022-1.75256,1.42242-3.17279,3.17499-3.17499h171.45599c1.75256,.0022,3.17279,1.42242,3.17499,3.17499v42.53101c-.0022,1.75256-1.42242,3.17279-3.17499,3.17499v-.00104Zm-171.45599-47.60999c-1.0517,.0011-1.90393,.85333-1.90503,1.90503v42.53101c.0011,1.0517,.85333,1.90393,1.90503,1.90503l151.97897-1.49786c1.0517-.0011,16.9989-5.9483,17-7l4.38202-35.93817c-.0011-1.0517-.85333-1.90393-1.90503-1.90503h-171.45596Z"
+                                        fill="#e6e6e6"></path>
+                                    <path id="t-354"
+                                        d="M335.62497,358.9958c-1.22748-.02594-2.24353,.94806-2.26947,2.17554s.94806,2.24353,2.17554,2.26947c.03131,.00067,.06262,.00067,.09393,0h104.77802c1.22693,.04694,2.25952-.90961,2.30652-2.13647,.04694-1.22693-.90961-2.25958-2.13654-2.30652h-104.948v-.00201Z"
+                                        fill="#e6e6e6"></path>
+                                    <circle id="u" cx="306.19202" cy="361.55079" r="8.89099" fill="#e6e6e6"></circle>
+                                </g>
+                                <g>
+                                    <circle cx="712.16968" cy="147.07086" r="25.04932" fill="#ffb6b6"></circle>
+                                    <path
+                                        d="M730.56708,167.65244c1.37976,.23524,2.99957-3.10915,4.54742-6.36639,3.2403-6.81859,5.30017-11.15318,5.45691-17.28021,.13361-5.22198-1.31714-3.85144-2.72845-15.46124-.46545-3.82923-7.00739-3.82186-8.33887-5.64016-2.24908-3.0714,1.20166-4.33809-4.39392-6.18315-10.48108-3.45587-15.22058,1.9127-21.87677,2.37521-.16821,.0117-3.46796,3.23869-5.31085,3.40556-3.22882,.29236-7.88672-.21057-9.97491-5.12995-1.95251-4.59969-3.24585,8.84154-1.50073,10.50497,1.48169,1.4123,4.0376,4.95715,4.10284,5.21494,.07385,.29176-6.07745-6.52229-7.10425-3.71423-.73901,2.02092,1.58722,12.41829,3.46631,12.80908,1.57141,.32674,5.41449-4.85272,4.54742-2.72845-2.01093,4.92648,10.08075,8.06992,24.55609-1.81897,.51331-.35072,.02844,.2086,1.81897,4.54742,2.25824,5.47223,2.76788,5.76866,2.72845,7.27588-.08533,3.2627-2.53503,4.22336-1.81897,6.36639,.57996,1.7357,2.8465,3.07939,4.54742,2.72845,1.91943-.39612,2.24854-2.77065,3.63794-2.72845,1.19012,.03619,2.6026,1.82874,2.72845,3.63794,.26508,3.81146-5.37756,4.85973-6.36639,10.00433-.55804,2.90343,6.00793-2.03513,7.27588-1.81897Z"
+                                        fill="#2f2e41"></path>
+                                </g>
+                                <g>
+                                    <path id="v-355"
+                                        d="M787.25488,367.87912h0c.1084-2.80505-.45642-5.59528-1.64734-8.13727l2.5799-29.23322-13.9502-.81976-1.11432,29.74731c-1.31622,2.47955-2.01947,5.23831-2.05096,8.04538-.17493,7.02219,3.30585,12.80411,7.77313,12.91602s8.23206-5.49051,8.40735-12.51163l.00244-.00684Z"
+                                        fill="#ffb6b6"></path>
+                                    <path id="w-356"
+                                        d="M757.58002,250l11,34,3.15796,69.44073,18.41351-.37613,1.42853-76.06461s-9.17682-56.20538-12.24969-68.83829c-3.07288-12.63289-31.40656-7.95123-31.40656-7.95123l9.65625,49.78954v-.00002Z"
+                                        fill="#2f2e41"></path>
+                                </g>
+                                <path
+                                    d="M301.32031,161.35631c5.202,1.72716,10.65576,3.47565,16.2085,3.18057,2.52698-.13428,4.95786-.73685,7.24997-1.80872,2.35101-1.0994,4.49918-2.59225,6.87885-3.6338,8.74551-3.82774,17.41873,2.71127,25.57477,5.16556,4.0694,1.22455,8.34872,1.51756,12.3291-.18796,4.39764-1.88432,7.71497-5.48019,11.33585-8.4825,8.11838-6.73145,18.711-10.3606,29.24765-10.08623,11.55887,.30098,22.74683,5.4064,30.70657,13.75731,.66736,.70016,1.72696-.36163,1.06067-1.06065-6.9563-7.29819-16.32962-12.21854-26.31122-13.70955-10.00311-1.49423-20.38733,.50233-29.18265,5.48373-4.45081,2.5208-8.02051,5.97134-11.94138,9.19156-3.81812,3.13582-8.06329,5.15669-13.09686,4.49023-8.67206-1.14819-16.1315-7.83051-25.1254-7.22467-5.74435,.38695-9.8468,4.70876-15.25201,6.08656-6.44849,1.64372-13.18832-.58414-19.28357-2.60786-.91824-.30487-1.31198,1.14322-.39877,1.44643h0l-.00006-.00002Z"
+                                    fill="#3f3d56"></path>
+                                <circle id="x" cx="317.60202" cy="163.7928" r="5.556" fill="#dc3545"></circle>
+                                <circle id="y" cx="365.56604" cy="164.0388" r="5.556" fill="#dc3545"></circle>
+                                <circle id="a`" cx="414.276" cy="145.19179" r="5.556" fill="#dc3545"></circle>
+                                <path id="aa-357"
+                                    d="M91.88582,337.94937c-16.42693,46.7715,4.50266,83.62044,.15932,59.85027-3.62983-19.86527,58.22264-80.31491,76.84067-67.85033-.39001-2.017-12.22395-38.38721-13.38399-38.55518,1.62299-4.08701-.63898-4.12601-.73102-6.22-.35199-8.08801,1.52802-16.48399,5.19-25.125,2.40002-6.67599,2.44202-12.412,.11603-17.037-2.0014-3.80138-5.36377-6.70734-9.41498-8.13699l-12.20001-14.73399c-3.17798-3.83501-7.86499-12.11-12.84497-12.07899l-26.73297-.955c-.76398-.459-10.151,7.61301-19.29102,11.57401-9.91302,4.3-7.86798,16.036-7.84302,16.186l.02301,.14,.10901,.10001,14.57097,42.88763,13.16506,12.33837c-.66699,1.93402-.5,3.38599,.74902,4.21899-1.79303,1.32599-9.76908,41.00723-8.48112,42.39722v1h0Z"
+                                    fill="#dc3545"></path>
+                                <g>
+                                    <path id="ab-358"
+                                        d="M229.25006,253.07015c-1.98782,.79332-3.75677,2.05104-5.159,3.668l-21.17001,7.257,3.74799,9.972,21.07101-8.435c2.13528,.14932,4.27527-.21483,6.241-1.062,4.94699-2.05299,7.89999-6.269,6.59201-9.41699s-6.37601-4.036-11.323-1.983h0v-.00002Z"
+                                        fill="#ffb6b6"></path>
+                                    <path id="ac-359"
+                                        d="M116.32082,221.0671h0l48.29501,65.19,56.61102-15.59-2.461-14.76801-43.10803,8.16499-24.04901-36.972c-7.853-15.17999-23.33099-18.237-35.28799-6.026v.00101Z"
+                                        fill="#dc3545"></path>
+                                </g>
+                                <g>
+                                    <path
+                                        d="M463.18613,549.78687h-22.03906c-3.84912,0-6.98047-3.13184-6.98047-6.98047-4.17786-11.3512-4.7049-21.53308,0-30.03906,0-3.84863,3.13135-6.98047,6.98047-6.98047,6.51697-4.72729,14.11517-3.29156,22.03906,0,3.84912,0,6.98047,3.13184,6.98047,6.98047-2.67426,9.62415-2.48053,19.66541,0,30.03906,0,3.84863-3.13135,6.98047-6.98047,6.98047Z"
+                                        fill="#dc3545"></path>
+                                    <g>
+                                        <path id="ad-360"
+                                            d="M461.05499,519.15576h-17.79999c-.61441,0-1.11249-.49811-1.11249-1.11249s.49808-1.11249,1.11249-1.11249h17.79999c.61441,0,1.11249,.49811,1.11249,1.11249s-.49808,1.11249-1.11249,1.11249h0Z"
+                                            fill="#fff"></path>
+                                        <path id="ae-361"
+                                            d="M461.05499,528.05377h-17.79999c-.61441,0-1.11249-.49811-1.11249-1.11249s.49808-1.11249,1.11249-1.11249h17.79999c.61441,0,1.11249,.49811,1.11249,1.11249s-.49808,1.11249-1.11249,1.11249h0Z"
+                                            fill="#fff"></path>
+                                        <path id="af-362"
+                                            d="M461.05499,536.95276h-17.79999c-.61441,0-1.11249-.49811-1.11249-1.11249s.49808-1.11249,1.11249-1.11249h17.79999c.61441,0,1.11249,.49811,1.11249,1.11249s-.49808,1.11249-1.11249,1.11249h0Z"
+                                            fill="#fff"></path>
+                                    </g>
+                                </g>
+                                <rect id="ag" y="590.2298" width="851.034" height="1.68298" fill="#e6e6e6"></rect>
+                                <g>
+                                    <path id="ah-363"
+                                        d="M664.20368,365.54672c.72338,6.98595,4.91441,12.27706,9.35929,11.81643,4.44488-.46064,7.46322-6.49686,6.74012-13.48391-.25074-2.79602-1.1674-5.4914-2.67335-7.86052l-3.43534-29.56929-13.84349,1.90731,4.85627,28.94224c-.98865,2.62728-1.33371,5.4531-1.00646,8.24111h0l.00297,.00662Z"
+                                        fill="#ffb6b6"></path>
+                                    <path id="ai-364"
+                                        d="M684.57387,245.70264l5.73621-50.39183s-28.61287-2.45337-30.68923,10.38101c-2.07636,12.83439-6.83327,69.58499-6.83327,69.58499l7.36779,75.72041,18.3866-1.06384-2.27774-69.47518,8.30963-34.75558v.00002Z"
+                                        fill="#2f2e41"></path>
+                                </g>
+                                <polygon
+                                    points="131.84512 201.55704 93.186 205.07715 92.04514 164.897 134.16168 163.70116 131.84512 201.55704"
+                                    fill="#2f2e41"></polygon>
+                                <circle cx="112.2962" cy="175.87539" r="20.28835" fill="#ffb6b6"></circle>
+                                <path
+                                    d="M128.61668,156.10679c-.14293-5.03412-6.40694-5.57921-11.28744-6.82161l-4.42563-2.29679c-4.34402-1.10583-8.95298-.32808-12.69357,2.14201l-11.80101,7.14905c-5.29882,3.49905-6.14054,9.15467-8.29528,15.12777l-3.90002,8.74365c-2.12116,5.88,.68185,13.67117,2.82608,19.5428l.89851,2.46043-1.40499,8.05242,24.59268-1.14858,2.18599-12.43093-4.19791-4.71881c-1.48948-1.67431-1.6103-4.16047-.29019-5.97132h.00001c4.74864-6.5139,3.86849-15.6425,3.86849-15.6425l6.00964,3.27817c3.94866,.53868,7.46749,.47963,10.56355-.16736,3.40509-.71158,6.29878-2.13433,8.69043-4.25524l2.14257,7.20649c.55195,8.96916-1.12407,11.34966-9.11841,20.12293l14.01901,8.80133-.51846-4.76288c-1.23335-11.33018,2.52691-20.26484,1.99979-29.48635-.36449-6.37641-4.15672-12.0575-9.86381-14.92467h-.00001Z"
+                                    fill="#2f2e41"></path>
+                                <g>
+                                    <path id="aj-365"
+                                        d="M131.97482,327.18014c-1.98076-.8108-4.12682-1.13554-6.25879-.94712l-20.26667-9.49188-4.23405,9.77553,21.01404,8.57596c1.43178,1.59114,3.22374,2.8163,5.22603,3.57302,4.9841,1.96119,10.03729,.98133,11.28416-2.19137s-1.78063-7.33294-6.76473-9.29414h.00001Z"
+                                        fill="#ffb6b6"></path>
+                                    <path id="ak-366"
+                                        d="M73.00255,225.69379h0l-10.56887,80.43907,51.54368,28.12659,8.4922-12.33017-36.67384-24.08317,8.39675-43.29871c4.90095-16.37322-4.10546-29.32693-21.18922-28.85433l-.0007,.00072Z"
+                                        fill="#dc3545"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <h5 class="mb-5">
+                                    Everybody is eligible to take the course who would like to learn, explore, grasp and
+                                    experiment with Artificial intelligence(Machine learning, Deep Learning, Computer
+                                    vision, Natural language processing, big data, Data analytics), Web
+                                    Development(JavaScript with React, Vue, Angular, Nodejs, MongoDB, NextJS, Tailwind,
+                                    etc.). Regardless of their background.
+                                </h5>
+                                <div class="col-6 col-md-4">
+                                    <a href="#" class="text-decoration-none">
+                                        <div class="d-block d-md-flex align-items-center justify-content-around mb-5">
+                                            
+                                                <img src="./assets/product1.png" width="80">
+                                            
+                                            <h5 class="font-bold text-secondary mb-b w-100">
+                                                Job Portal
+                                            </h5>
+                                        </div>
                                     </a>
-                                    <h3 class="font-bold text-secondary mb-b">
-                                        <a href="#" class="text-decoration-none">Job Portal</a>
-                                    </h3>
-                                    <p class="p-3">Use exceptional templates for a stand-out resume minus the sign up
-                                        process.</p>
                                 </div>
-                            </div>
-                            <div class="col-md-4 pb-4">
-                                <div class="product text-center">
-                                    <a href="#">
-                                        <figure>
-                                            <img src="https://ineuron.ai/images/landing-page/products/Internship-icon.svg"
-                                                alt="icon" class="icon">
-                                        </figure>
+                                <div class="col-6 col-md-4">
+                                    <a href="#" class="text-decoration-none">
+                                        <div class="d-block d-md-flex align-items-center justify-content-around mb-5">
+                                            
+                                                <img src="./assets/product2.png" alt="icon" width="80">
+                                            
+                                            <h5 class="font-bold text-secondary mb-b w-100">
+                                                Internship portal
+                                            </h5>
+                                        </div>
                                     </a>
-                                    <h3 class="font-bold text-secondary mb-b">
-                                        <a href="#" class="text-decoration-none">Internship portal</a>
-                                    </h3>
-                                    <p class="p-3">iNeuron's self-paced internship portal prioritises hands-on training
-                                        with 570+ internship projects.</p>
                                 </div>
-                            </div>
-                            <div class="col-md-4 pb-4">
-                                <div class="product text-center">
-                                    <a href="#">
-                                        <figure>
-                                            <img src="https://ineuron.ai/images/landing-page/products/affilitatePortal-icon.svg"
-                                                alt="icon" class="icon">
-                                        </figure>
+                                <div class="col-6 col-md-4">
+                                    <a href="#" class="text-decoration-none">
+                                        <div class="d-block d-md-flex align-items-center justify-content-around mb-5">
+                                            
+                                                <img src="./assets/product3.png" alt="icon" width="80">
+                                            
+                                            <h5 class="font-bold text-secondary mb-b w-100">
+                                                Become an affiliate
+                                            </h5>
+                                        </div>
                                     </a>
-                                    <h3 class="font-bold text-secondary mb-b">
-                                        <a href="#" class="text-decoration-none">Become an affiliate</a>
-                                    </h3>
-                                    <p class="p-3">Explore affiliate marketing opportunities with iNeuron and attain
-                                        financial frredom.</p>
                                 </div>
-                            </div>
-                            <div class="col-md-4 pb-4">
-                                <div class="product text-center">
-                                    <a href="#">
-                                        <figure>
-                                            <img src="https://ineuron.ai/images/landing-page/products/halloffame-icon.svg"
-                                                alt="icon" class="icon">
-                                        </figure>
+                                <div class="col-6 col-md-4">
+                                    <a href="#" class="text-decoration-none">
+                                        <div class="d-block d-md-flex align-items-center justify-content-around mb-5">
+                                            
+                                                <img src="./assets/product4.png" alt="icon" width="80">
+                                            
+                                            <h5 class="font-bold text-secondary mb-b w-100">
+                                                Hall of fame
+                                            </h5>
+                                        </div>
                                     </a>
-                                    <h3 class="font-bold text-secondary mb-b">
-                                        <a href="#" class="text-decoration-none">Hall of fame</a>
-                                    </h3>
-                                    <p class="p-3">Our student placements and 10+ career transitions speak volumes about
-                                        our courses.</p>
                                 </div>
-                            </div>
-                            <div class="col-md-4 pb-4">
-                                <div class="product text-center">
-                                    <a href="#">
-                                        <figure>
-                                            <img src="https://ineuron.ai/images/landing-page/products/blog-icon.svg"
-                                                alt="icon" class="icon">
-                                        </figure>
+                                <div class="col-6 col-md-4">
+                                    <a href="#" class="text-decoration-none">
+                                        <div class="d-block d-md-flex align-items-center justify-content-around mb-5">
+                                            
+                                                <img src="./assets/product5.png" alt="icon" width="80">
+                                            
+                                            <h5 class="font-bold text-secondary mb-b w-100">
+                                                Our InBlog
+                                            </h5>
+                                        </div>
                                     </a>
-                                    <h3 class="font-bold text-secondary mb-b">
-                                        <a href="#" class="text-decoration-none">InBlog</a>
-                                    </h3>
-                                    <p class="p-3">Explore all you want about your favourite courses.</p>
                                 </div>
                             </div>
                         </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </section>
+        <hr class="m-0">
+        
+        <section class="team">
+            <div class="wrap">
+                <h2 class="text-center display-4">Tech Avengers</h2>
+                <div class="container-fluid px-3 px-md-5 py-5">
+                    <div class="owl-carousel team">
+                        <div class="item">                            
+                            <div class="card border-0 rounded-0 bg-transparent">
+                                <a href="#">
+                                    <figure>
+                                        <img src="./assets/krish-square.png" alt="icon" width="200">
+                                    </figure>
+                                </a>                            
+                                <div class="card-content p-4 text-center">                                    
+                                    <h5 class="font-bold">
+                                        <a href="#">Krish Naik</a>
+                                    </h5>
+                                    <p>Cyber Security Lead</p>
+                                    <img src="./assets/linkedin-icon.svg" alt="" width="20" class="social-icon">
+                                    <img src="./assets/you-tube-icon.svg" alt="" width="20" class="social-icon">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">                            
+                            <div class="card border-0 rounded-0 bg-transparent">
+                                <a href="#">
+                                    <figure>
+                                        <img src="./assets/sunny-square.png" alt="icon" width="200">
+                                    </figure>
+                                </a>                            
+                                <div class="card-content p-4 text-center">                                    
+                                    <h5 class="font-bold">
+                                        <a href="#">Sunny Bhaveen Chandra</a>
+                                    </h5>
+                                    <p>Cyber Security Lead</p>
+                                    <img src="./assets/linkedin-icon.svg" alt="" width="20" class="social-icon">
+                                    <img src="./assets/you-tube-icon.svg" alt="" width="20" class="social-icon">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">                            
+                            <div class="card border-0 rounded-0 bg-transparent">
+                                <a href="#">
+                                    <figure>
+                                        <img src="./assets/sudhanshu-square.png" alt="icon" width="200">
+                                    </figure>
+                                </a>                            
+                                <div class="card-content p-4 text-center">                                    
+                                    <h5 class="font-bold">
+                                        <a href="#">Sudhanshu Kumar</a>
+                                    </h5>
+                                    <p>Cyber Security Lead</p>
+                                    <img src="./assets/linkedin-icon.svg" alt="" width="20" class="social-icon">
+                                    <img src="./assets/you-tube-icon.svg" alt="" width="20" class="social-icon">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">                            
+                            <div class="card border-0 rounded-0 bg-transparent">
+                                <a href="#">
+                                    <figure>
+                                        <img src="./assets/Kiran-Sahu-square.png" alt="icon" width="200">
+                                    </figure>
+                                </a>                            
+                                <div class="card-content p-4 text-center">                                    
+                                    <h5 class="font-bold">
+                                        <a href="#">Kiran Sahu</a>
+                                    </h5>
+                                    <p>Cyber Security Lead</p>
+                                    <img src="./assets/linkedin-icon.svg" alt="" width="20" class="social-icon">
+                                    <img src="./assets/you-tube-icon.svg" alt="" width="20" class="social-icon">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">                            
+                            <div class="card border-0 rounded-0 bg-transparent">
+                                <a href="#">
+                                    <figure>
+                                        <img src="./assets/hitesh-square.png" alt="icon" width="200">
+                                    </figure>
+                                </a>                            
+                                <div class="card-content p-4 text-center">                                    
+                                    <h5 class="font-bold">
+                                        <a href="#">Hitesh Choudhary</a>
+                                    </h5>
+                                    <p>Cyber Security Lead</p>
+                                    <img src="./assets/linkedin-icon.svg" alt="" width="20" class="social-icon">
+                                    <img src="./assets/you-tube-icon.svg" alt="" width="20" class="social-icon">
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
 
             </div>
         </section>
         <hr>
-        <section class="team">
-            <div class="wrap">
-                <div class="section-title">
-                    <h2 class="text-center display-4 text-warning">Tech Avengers</h2>
-                </div>
-                <div class="container p-5">
-                    <div class="owl-carousel team">
-                        <div class="item">
-                            <div class="card bg-grey">
-                                <div class="card-content p-3 text-center">
-                                    <a href="#">
-                                        <figure class="rounded-circle">
-                                            <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
-                                                alt="icon" width="200" class="rounded-circle p-5">
-                                        </figure>
-                                    </a>
-                                    <h5 class="font-bold text-secondary">
-                                        <a href="#">Krish Naik</a>
-                                    </h5>
-                                    <p>Cyber Security Lead</p>
-                                    <img src="https://ineuron.ai/images/landing-page/linkedin-icon.svg" alt=""
-                                        width="20" class="social-icon">
-                                    <img src="https://ineuron.ai/images/landing-page/you-tube-icon.svg" alt=""
-                                        width="20" class="social-icon">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card bg-grey">
-                                <div class="card-content p-3 text-center">
-                                    <a href="#">
-                                        <figure class="rounded-circle">
-                                            <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
-                                                alt="icon" width="200" class="rounded-circle p-5">
-                                        </figure>
-                                    </a>
-                                    <h5 class="font-bold text-secondary">
-                                        <a href="#">Krish Naik</a>
-                                    </h5>
-                                    <p>Cyber Security Lead</p>
-                                    <img src="https://ineuron.ai/images/landing-page/linkedin-icon.svg" alt=""
-                                        width="20" class="social-icon">
-                                    <img src="https://ineuron.ai/images/landing-page/you-tube-icon.svg" alt=""
-                                        width="20" class="social-icon">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card bg-grey">
-                                <div class="card-content p-3 text-center">
-                                    <a href="#">
-                                        <figure class="rounded-circle">
-                                            <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
-                                                alt="icon" width="200" class="rounded-circle p-5">
-                                        </figure>
-                                    </a>
-                                    <h5 class="font-bold text-secondary">
-                                        <a href="#">Krish Naik</a>
-                                    </h5>
-                                    <p>Cyber Security Lead</p>
-                                    <img src="https://ineuron.ai/images/landing-page/linkedin-icon.svg" alt=""
-                                        width="20" class="social-icon">
-                                    <img src="https://ineuron.ai/images/landing-page/you-tube-icon.svg" alt=""
-                                        width="20" class="social-icon">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card bg-grey">
-                                <div class="card-content p-3 text-center">
-                                    <a href="#">
-                                        <figure class="rounded-circle">
-                                            <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
-                                                alt="icon" width="200" class="rounded-circle p-5">
-                                        </figure>
-                                    </a>
-                                    <h5 class="font-bold text-secondary">
-                                        <a href="#">Krish Naik</a>
-                                    </h5>
-                                    <p>Cyber Security Lead</p>
-                                    <img src="https://ineuron.ai/images/landing-page/linkedin-icon.svg" alt=""
-                                        width="20" class="social-icon">
-                                    <img src="https://ineuron.ai/images/landing-page/you-tube-icon.svg" alt=""
-                                        width="20" class="social-icon">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card bg-grey">
-                                <div class="card-content p-3 text-center">
-                                    <a href="#">
-                                        <figure class="rounded-circle">
-                                            <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
-                                                alt="icon" width="200" class="rounded-circle p-5">
-                                        </figure>
-                                    </a>
-                                    <h5 class="font-bold text-secondary">
-                                        <a href="#">Krish Naik</a>
-                                    </h5>
-                                    <p>Cyber Security Lead</p>
-                                    <img src="https://ineuron.ai/images/landing-page/linkedin-icon.svg" alt=""
-                                        width="20" class="social-icon">
-                                    <img src="https://ineuron.ai/images/landing-page/you-tube-icon.svg" alt=""
-                                        width="20" class="social-icon">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card bg-grey">
-                                <div class="card-content p-3 text-center">
-                                    <a href="#">
-                                        <figure class="rounded-circle">
-                                            <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
-                                                alt="icon" width="200" class="rounded-circle p-5">
-                                        </figure>
-                                    </a>
-                                    <h5 class="font-bold text-secondary">
-                                        <a href="#">Krish Naik</a>
-                                    </h5>
-                                    <p>Cyber Security Lead</p>
-                                    <img src="https://ineuron.ai/images/landing-page/linkedin-icon.svg" alt=""
-                                        width="20" class="social-icon">
-                                    <img src="https://ineuron.ai/images/landing-page/you-tube-icon.svg" alt=""
-                                        width="20" class="social-icon">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card bg-grey">
-                                <div class="card-content p-3 text-center">
-                                    <a href="#">
-                                        <figure class="rounded-circle">
-                                            <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png"
-                                                alt="icon" width="200" class="rounded-circle p-5">
-                                        </figure>
-                                    </a>
-                                    <h5 class="font-bold text-secondary">
-                                        <a href="#">Krish Naik</a>
-                                    </h5>
-                                    <p>Cyber Security Lead</p>
-                                    <img src="https://ineuron.ai/images/landing-page/linkedin-icon.svg" alt=""
-                                        width="20" class="social-icon">
-                                    <img src="https://ineuron.ai/images/landing-page/you-tube-icon.svg" alt=""
-                                        width="20" class="social-icon">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
         <section class="partners pb-0">
             <div class="wrap">
                 <div class="section-title">
-                    <h3 class="text-center display-4 text-white">Our Partnered Institutions</h3>
+                    <h2 class="text-center display-4 text-white">Our Partnered Institutions</h2>
                 </div>
                 <div class="container">
 
                     <div class="row">
                         <div class="col-md-5">
-                            <img src="./assets/undraw_agreement_re_d4dv.svg" alt="" class="w-100" style="height:350px">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="currentIllo" data-name="Layer 1" width="100%"
+                                height="350" viewBox="0 0 746 721.34323"
+                                class="injected-svg DownloadModal__ImageFile-sc-p17csy-5 iIfSkb grid_media"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path d="M907.60236,809.95184v-72.34S935.794,788.89781,907.60236,809.95184Z"
+                                    transform="translate(-227 -89.32838)" fill="#f1f1f1"></path>
+                                <path d="M909.34383,809.93912l-53.28962-48.92125S912.8994,774.9334,909.34383,809.93912Z"
+                                    transform="translate(-227 -89.32838)" fill="#f1f1f1"></path>
+                                <path
+                                    d="M721.38766,408.51766,438.60244,573.79556a4.32611,4.32611,0,0,1-5.91113-1.55023L250.842,261.107a4.32609,4.32609,0,0,1,1.55022-5.91112L535.17747,89.918a4.3261,4.3261,0,0,1,5.91112,1.55023l181.8493,311.13836A4.3261,4.3261,0,0,1,721.38766,408.51766Z"
+                                    transform="translate(-227 -89.32838)" fill="#fff"></path>
+                                <path
+                                    d="M721.38766,408.51766,438.60244,573.79556a4.32611,4.32611,0,0,1-5.91113-1.55023L250.842,261.107a4.32609,4.32609,0,0,1,1.55022-5.91112L535.17747,89.918a4.3261,4.3261,0,0,1,5.91112,1.55023l181.8493,311.13836A4.3261,4.3261,0,0,1,721.38766,408.51766ZM253.26442,256.68812a2.59553,2.59553,0,0,0-.93013,3.54668L434.18358,571.37315a2.59553,2.59553,0,0,0,3.54668.93014l282.78522-165.2779a2.59552,2.59552,0,0,0,.93014-3.54667L539.59632,92.34036a2.59553,2.59553,0,0,0-3.54668-.93014Z"
+                                    transform="translate(-227 -89.32838)" fill="#3f3d56"></path>
+                                <path
+                                    d="M435.03979,287.67306l-70.1367,40.99241a4.32609,4.32609,0,0,1-5.91112-1.55023l-40.99241-70.1367a4.32608,4.32608,0,0,1,1.55023-5.91112l70.1367-40.99241a4.32609,4.32609,0,0,1,5.91112,1.55023L436.59,281.76194A4.32608,4.32608,0,0,1,435.03979,287.67306ZM320.422,252.55969a2.59552,2.59552,0,0,0-.93014,3.54667l40.99241,70.1367a2.59552,2.59552,0,0,0,3.54667.93014l70.1367-40.99241a2.59552,2.59552,0,0,0,.93014-3.54667l-40.99241-70.1367a2.59552,2.59552,0,0,0-3.54667-.93014Z"
+                                    transform="translate(-227 -89.32838)" fill="#f2f2f2"></path>
+                                <path
+                                    d="M419.90917,308.028l-70.1367,40.99241a3.89341,3.89341,0,0,1-5.32-1.39521l-40.99241-70.1367a3.89342,3.89342,0,0,1,1.39521-5.32l70.1367-40.99241a3.89342,3.89342,0,0,1,5.32,1.39521l40.99241,70.1367A3.89342,3.89342,0,0,1,419.90917,308.028Z"
+                                    transform="translate(-227 -89.32838)" fill="#dc3545"></path>
+                                <path
+                                    d="M589.19632,255.13236,369.83258,383.34266a3.889,3.889,0,0,1-3.9248-6.71522l219.36373-128.2103a3.889,3.889,0,0,1,3.92481,6.71522Z"
+                                    transform="translate(-227 -89.32838)" fill="#ccc"></path>
+                                <path
+                                    d="M549.73949,309.2249l-166.38813,97.248a3.889,3.889,0,0,1-3.92481-6.71522l166.38814-97.24795a3.889,3.889,0,1,1,3.9248,6.71522Z"
+                                    transform="translate(-227 -89.32838)" fill="#ccc"></path>
+                                <path
+                                    d="M538.736,170.509l-96.99757,56.69163a3.889,3.889,0,0,1-3.92481-6.71521l96.99757-56.69163A3.889,3.889,0,0,1,538.736,170.509Z"
+                                    transform="translate(-227 -89.32838)" fill="#ccc"></path>
+                                <path
+                                    d="M528.04745,207.78755l-72.79026,42.54331a3.889,3.889,0,0,1-3.92481-6.71522l72.79026-42.54331a3.889,3.889,0,0,1,3.92481,6.71522Z"
+                                    transform="translate(-227 -89.32838)" fill="#ccc"></path>
+                                <path
+                                    d="M616.23386,301.39274,396.87013,429.603a3.889,3.889,0,0,1-3.92481-6.71522l219.36374-128.2103a3.889,3.889,0,0,1,3.9248,6.71522Z"
+                                    transform="translate(-227 -89.32838)" fill="#ccc"></path>
+                                <path
+                                    d="M576.777,355.48528l-166.38814,97.248a3.889,3.889,0,1,1-3.9248-6.71522l166.38813-97.24795a3.889,3.889,0,1,1,3.92481,6.71522Z"
+                                    transform="translate(-227 -89.32838)" fill="#ccc"></path>
+                                <path
+                                    d="M643.27141,347.65312,423.90767,475.86342a3.889,3.889,0,0,1-3.9248-6.71522L639.3466,340.9379a3.889,3.889,0,0,1,3.92481,6.71522Z"
+                                    transform="translate(-227 -89.32838)" fill="#ccc"></path>
+                                <path
+                                    d="M656.79018,370.78331,437.42645,498.9936a3.889,3.889,0,1,1-3.92481-6.71521l219.36374-128.2103a3.889,3.889,0,1,1,3.9248,6.71522Z"
+                                    transform="translate(-227 -89.32838)" fill="#ccc"></path>
+                                <path
+                                    d="M585.85233,460.8263a84.70308,84.70308,0,0,0,8.2014-11.47053c2.16171-3.64878,4.2824-7.55,4.759-11.82932a11.68306,11.68306,0,0,0-3.49862-9.98546,8.22181,8.22181,0,0,0-9.64609-1.09646,9.80894,9.80894,0,0,0-4.923,8.75985,12.959,12.959,0,0,0,5.53588,9.81385c6.48388,4.69765,16.60994,4.4522,23.52077.87731,7.784-4.02657,11.80578-14.56146,5.69036-21.77281-1.272-1.4999-3.38871.17627-3.07005,1.79433a8.72086,8.72086,0,0,0,17.279-2.13545l-2.7491,1.60676a20.99018,20.99018,0,0,0,20.87922-2.23986,19.4701,19.4701,0,0,0,3.90715-3.77622c1.34569-1.75547,3.60614-2.88981,5.43647-4.15451l13.19043-9.11411c1.94021-1.34062.09538-4.53543-1.86081-3.18378l-11.946,8.25429c-1.99075,1.37553-3.99447,2.73415-5.973,4.12714-1.4144.9958-2.28466,2.60338-3.57157,3.78591a17.28811,17.28811,0,0,1-18.25191,3.08747,1.86585,1.86585,0,0,0-2.7491,1.60675,5.0482,5.0482,0,0,1-10.02595,1.18765l-3.07006,1.79434c3.94506,4.652,1.31808,11.78725-3.22684,14.90874-5.08283,3.49093-12.59333,4.09689-18.32272,1.92692a10.81086,10.81086,0,0,1-6.365-5.84005,6.44305,6.44305,0,0,1,1.462-7.373,4.62265,4.62265,0,0,1,6.427-.06854,8.269,8.269,0,0,1,2.19083,7.45928c-.5909,3.69454-2.63337,7.10141-4.53329,10.257a78.797,78.797,0,0,1-7.337,10.21716c-1.52123,1.80027,1.10343,4.39464,2.64071,2.57538Z"
+                                    transform="translate(-227 -89.32838)" fill="#dc3545"></path>
+                                <path
+                                    d="M618.59271,548.50763a8.67233,8.67233,0,0,1,.872,1.051l40.84857-.99946,4.76541-8.70792,14.08178,5.47419-6.93809,16.23551a6.59134,6.59134,0,0,1-6.8516,3.95362l-46.15126-5.57517a8.64875,8.64875,0,1,1-.62683-11.43176Z"
+                                    transform="translate(-227 -89.32838)" fill="#ffb7b7"></path>
+                                <polygon
+                                    points="524.753 707.256 511.322 707.256 504.932 655.449 524.755 655.45 524.753 707.256"
+                                    fill="#ffb7b7"></polygon>
+                                <path
+                                    d="M755.17806,809.60436l-43.308-.00161V809.055a16.85758,16.85758,0,0,1,16.85668-16.8564h.00107l26.451.00107Z"
+                                    transform="translate(-227 -89.32838)" fill="#2f2e41"></path>
+                                <polygon
+                                    points="402.792 706.958 390.441 701.681 404.916 651.529 423.145 659.317 402.792 706.958"
+                                    fill="#ffb7b7"></polygon>
+                                <path
+                                    d="M627.82776,809.60436l-39.826-17.014.21518-.50375a16.85759,16.85759,0,0,1,22.12325-8.87963l.001.00042,24.3243,10.39164Z"
+                                    transform="translate(-227 -89.32838)" fill="#2f2e41"></path>
+                                <polygon
+                                    points="459.468 470.402 458.496 486.141 486.887 489.179 516.593 492.358 507.849 468.459 459.468 470.402"
+                                    fill="#ffb7b7"></polygon>
+                                <path
+                                    d="M684.60236,575.67162l-11.02912-76.88748,19.11648-6.26508,5.61475-7.7001,27.32289,1.61686,4.01137,8.98546,14.56924,6.88423-2.239,41.58174,1.63341,34.78437Z"
+                                    transform="translate(-227 -89.32838)" fill="#2f2e41"></path>
+                                <path
+                                    d="M677.66064,555.06728l-19.44456-7.77975.08288-.346c.08348-.3488,8.35927-34.93247,9.45817-40.48989,1.14475-5.79,5.3269-7.39073,5.50452-7.4559l.12974-.04788,7.69528,2.34222,3.37955,26.55448Z"
+                                    transform="translate(-227 -89.32838)" fill="#2f2e41"></path>
+                                <path
+                                    d="M639.79576,787.18106l-25.88371-5.30948,41.36969-114.1538,14.15862-38.93618s8.9802-31.21887,13.03747-43.30013l2.44851-16.21028,57.96181,6.41562s16.18859,23.77448,11.27061,62.52545l2.22432,145.65037L730.49937,785.19,708.819,638.29442l-38.05126,80.5271s-11.99335,34.36378-20.57424,41.81214Z"
+                                    transform="translate(-227 -89.32838)" fill="#2f2e41"></path>
+                                <path
+                                    d="M719.64415,581.093a8.67278,8.67278,0,0,1,1.36357.07512L748.0481,550.5344l-3.14545-9.415,13.58853-6.60419,7.18819,16.12634a6.59137,6.59137,0,0,1-1.75929,7.71237l-35.46688,30.052a8.64875,8.64875,0,1,1-8.80905-7.31289Z"
+                                    transform="translate(-227 -89.32838)" fill="#ffb7b7"></path>
+                                <path
+                                    d="M745.8896,553.5156l-11.2798-26.53276,4.39939-18.48144,4.74015-5.9887a2.73032,2.73032,0,0,1,2.19377.02051c1.74821.70363,3.23693,2.86,4.42494,6.40951l10.57114,30.11085Z"
+                                    transform="translate(-227 -89.32838)" fill="#2f2e41"></path>
+                                <path
+                                    d="M687.36746,474.98733V454.98412a26.8043,26.8043,0,0,1,53.6086,0v20.00321a3.60464,3.60464,0,0,1-3.60058,3.60058H690.968A3.60463,3.60463,0,0,1,687.36746,474.98733Z"
+                                    transform="translate(-227 -89.32838)" fill="#2f2e41"></path>
+                                <circle cx="481.66375" cy="369.1419" r="19.65197" fill="#ffb7b7"></circle>
+                                <path
+                                    d="M681.0262,456.58438a21.22738,21.22738,0,0,1,21.20341-21.2034h4.00083a21.22721,21.22721,0,0,1,21.20321,21.2034v.40006H718.979l-2.88366-8.07473-.57666,8.07473H711.1492l-1.45492-4.07409-.29106,4.07409h-28.377Z"
+                                    transform="translate(-227 -89.32838)" fill="#2f2e41"></path>
+                                <path
+                                    d="M706.72972,480.8373a3.54728,3.54728,0,0,1-.28188-3.76623c4.23955-8.06379,10.17546-22.96384,2.29646-32.15282l-.5663-.66026h22.87359v34.34145l-20.77892,3.66621a3.67755,3.67755,0,0,1-.63721.05626A3.58611,3.58611,0,0,1,706.72972,480.8373Z"
+                                    transform="translate(-227 -89.32838)" fill="#2f2e41"></path>
+                                <polygon
+                                    points="212.904 695.94 225.042 700.278 247.551 655.523 229.636 649.121 212.904 695.94"
+                                    fill="#9f616a"></polygon>
+                                <path
+                                    d="M432.60236,795.92854l5.62164-15.7298,23.90478,8.54334a16.197,16.197,0,0,1,9.79011,20.67889l-.17712.49491Z"
+                                    transform="translate(-227 -89.32838)" fill="#2f2e41"></path>
+                                <polygon
+                                    points="291.836 707.946 304.726 707.945 310.859 658.226 291.834 658.227 291.836 707.946"
+                                    fill="#9f616a"></polygon>
+                                <path
+                                    d="M515.54791,793.06587l25.3854-.001h.001a16.1777,16.1777,0,0,1,16.178,16.17747v.52571l-41.56364.00154Z"
+                                    transform="translate(-227 -89.32838)" fill="#2f2e41"></path>
+                                <path d="M489.45887,479.62865l5.60594-11.07722s20.884,5.23229,22.78254,17.3361Z"
+                                    transform="translate(-227 -89.32838)" fill="#f1f1f1"></path>
+                                <polygon
+                                    points="239.328 516.96 254.573 602.034 214.093 673.622 238.276 683.085 279.282 613.691 284.539 594.765 287.693 693.599 309.503 692.937 319.502 600.65 303.464 514.857 239.328 516.96"
+                                    fill="#2f2e41"></polygon>
+                                <path
+                                    d="M495.26738,626.39974c-22.39644,0-36.61635-4.28374-36.93491-4.35151l-.5157-.10986L469.4823,567.8526l.5252-49.88931c0-21.14145,13.91444-36.728,15.84531-38.16653a9.09551,9.09551,0,0,1,4.83743-5.94508c4.64131-2.10593,10.313.421,10.55173.52982l17.02328,6.38248.08009.23616c.2051.60478,22.62721,74.21379,22.62721,74.21379s-1.35707,64.315-1.83016,66.422C539.14239,621.6359,507.71147,626.39974,495.26738,626.39974Z"
+                                    transform="translate(-227 -89.32838)" fill="#3f3d56"></path>
+                                <circle cx="285.4768" cy="352.72704" r="23.00821" fill="#9f616a"></circle>
+                                <polygon points="259.823 432.715 300.076 488.877 306.02 462.65 259.823 432.715"
+                                    opacity="0.2"></polygon>
+                                <path
+                                    d="M613.02352,560.25673a9.87366,9.87366,0,0,1-14.82487-3.07339l-34.64668,5.5456,7.506-16.61679,31.75033-2.71866a9.92718,9.92718,0,0,1,10.21526,16.86324Z"
+                                    transform="translate(-227 -89.32838)" fill="#9f616a"></path>
+                                <polygon
+                                    points="345.842 455.838 358.291 454.617 361.741 471.983 346.076 472.26 345.842 455.838"
+                                    fill="#f1f1f1"></polygon>
+                                <path
+                                    d="M583.04706,567.36242l-60.96976-5.42884L491.29145,512.973l-.09483-.4327a16.85541,16.85541,0,0,1,31.4666-11.28612l18.072,35.25105,36.47268,5.51312Z"
+                                    transform="translate(-227 -89.32838)" fill="#3f3d56"></path>
+                                <path
+                                    d="M492.87889,462.03183l19.09695.68547c1.16406.04178,4.32334-12.521,4.7369-15.12708a7.11274,7.11274,0,0,1,7.41971-5.754c1.42953.135,5.03429-2.53568,8.754-5.69809,7.062-6.00388,6.69461-17.28005-1.063-22.35333q-.318-.208-.62428-.37983c-4.89391-2.73917-10.61888-3.659-16.22678-3.72917-5.08371-.06358-10.31154.57628-14.79018,2.98249-8.02926,4.31383-12.3024,13.74076-12.67776,22.84774s2.5442,18.012,5.85721,26.50324"
+                                    transform="translate(-227 -89.32838)" fill="#2f2e41"></path>
+                                <path
+                                    d="M971.60236,810.67162H228a1,1,0,0,1,0-2H972a1,1,0,0,1,1,1C973,810.22386,972.15461,810.67162,971.60236,810.67162Z"
+                                    transform="translate(-227 -89.32838)" fill="#cbcbcb"></path>
+                            </svg>
+
                         </div>
                         <div class="col-md-6">
                             <div class="row align-items-center justify-content-center bg-yellow rounded py-4">
                                 <div class="col-4 text-center my-3">
-                                    <img src="https://ineuron.ai/images/landing-page/colleges/taxila.svg" alt="musigma"
-                                class="w-75">
+                                    <img src="./assets/taxila.svg" alt="musigma" class="w-75">
                                 </div>
                                 <div class="col-4 text-center my-3">
-                                    <img src="https://ineuron.ai/images/landing-page/colleges/vit.svg" alt="musigma"
-                                class="w-75">
+                                    <img src="./assets/vit.svg" alt="musigma" class="w-75">
                                 </div>
                                 <div class="col-4 text-center my-3">
-                                    <img src="https://ineuron.ai/images/landing-page/colleges/keit.svg" alt="musigma"
-                                class="w-75">
+                                    <img src="./assets/keit.svg" alt="musigma" class="w-75">
                                 </div>
                                 <div class="col-4 text-center my-3">
-                                    <img src="https://ineuron.ai/images/landing-page/colleges/gim.svg" alt="musigma"
-                                class="w-75">
+                                    <img src="./assets/gim.svg" alt="musigma" class="w-75">
                                 </div>
                                 <div class="col-4 text-center my-3">
-                                    <img src="https://ineuron.ai/images/landing-page/colleges/malnad-college.svg" alt="musigma"
-                                class="w-75">
-                                </div>                                
+                                    <img src="./assets/malnad-college.svg" alt="musigma" class="w-75">
+                                </div>
 
                             </div>
                         </div>
+                    </div>                   
+                </div>
+            </div>
+        </section>
+        <section class="hall-of-fame" style="background-image:url('./assets/star.jpg'); background-size:contain;">        
+            <div class="wrap">
+                <h2 class="text-center display-4">Hall of fame</h2>
+                <div class="container-fluid p-5 bg-transparent">
+                    <div class="gallery">
+                        <div class="row justify-content-around align-items-center text-center">
+                            <div class="col-6 col-md-2">
+                                <div class="profile">
+                                    <a href="#" class="nav-link">
+                                        <figure class="rounded-circle">
+                                            <img src="./assets/62dc33aba9f208001ac2a172.jpeg" alt="icon" width="200"
+                                                class="rounded-circle">
+                                        </figure>
+                                        <div class="profile-detail">
+                                            <h4 class="text-secondary font-bold">Aakash B</h4>
+                                            <span>Ecolap Trainee Software Developer</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-2">
+                                <div class="profile">
+                                    <a href="#" class="nav-link">
+                                        <figure class="rounded-circle">
+                                            <img src="./assets/62567c723c8eff001aa26bf5.jpeg" alt="icon" width="200"
+                                                class="rounded-circle">
+                                        </figure>
+                                        <div class="profile-detail">
+                                            <h4 class="text-secondary font-bold">Aakash B</h4>
+                                            <span>Ecolap Trainee Software Developer</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-2">
+                                <div class="profile">
+                                    <a href="#" class="nav-link">
+                                        <figure class="rounded-circle">
+                                            <img src="./assets/62da4c5ea9f208001ac1ad2a.jpeg" alt="icon" width="200"
+                                                class="rounded-circle">
+                                        </figure>
+                                        <div class="profile-detail">
+                                            <h4 class="text-secondary font-bold">Aakash B</h4>
+                                            <span>Ecolap Trainee Software Developer</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-2">
+                                <div class="profile">
+                                    <a href="#" class="nav-link">
+                                        <figure class="rounded-circle">
+                                            <img src="./assets/62da527da9f208001ac1b1cb.jpeg" alt="icon" width="200"
+                                                class="rounded-circle">
+                                        </figure>
+                                        <div class="profile-detail">
+                                            <h4 class="text-secondary font-bold">Aakash B</h4>
+                                            <span>Ecolap Trainee Software Developer</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-2">
+                                <div class="profile">
+                                    <a href="#" class="nav-link">
+                                        <figure class="rounded-circle">
+                                            <img src="./assets/62dfd8aea9f208001ac41204.jpeg" alt="icon" width="200"
+                                                class="rounded-circle">
+                                        </figure>
+                                        <div class="profile-detail">
+                                            <h4 class="text-secondary font-bold">Aakash B</h4>
+                                            <span>Ecolap Trainee Software Developer</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="d-none d-md-flex row justify-content-center text-center align-items-center gap-sm-5">
+                            <div class="col-6 col-md-2">
+                                <div class="profile">
+                                    <a href="#" class="nav-link">
+                                        <figure class="rounded-circle">
+                                            <img src="./assets/62567c723c8eff001aa26bf5.jpeg" alt="icon" width="200"
+                                                class="rounded-circle">
+                                        </figure>
+                                        <div class="profile-detail">
+                                            <h4 class="text-secondary font-bold">Aakash B</h4>
+                                            <span>Ecolap Trainee Software Developer</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-2">
+                                <div class="profile">
+                                    <a href="#" class="nav-link">
+                                        <figure class="rounded-circle">
+                                            <img src="./assets/62da4c5ea9f208001ac1ad2a.jpeg" alt="icon" width="200"
+                                                class="rounded-circle">
+                                        </figure>
+                                        <div class="profile-detail">
+                                            <h4 class="text-secondary font-bold">Aakash B</h4>
+                                            <span>Ecolap Trainee Software Developer</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-2">
+                                <div class="profile">
+                                    <a href="#" class="nav-link">
+                                        <figure class="rounded-circle">
+                                            <img src="./assets/62dc33aba9f208001ac2a172.jpeg" alt="icon" width="200"
+                                                class="rounded-circle">
+                                        </figure>
+                                        <div class="profile-detail">
+                                            <h4 class="text-secondary font-bold">Aakash B</h4>
+                                            <span>Ecolap Trainee Software Developer</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-2">
+                                <div class="profile">
+                                    <a href="#" class="nav-link">
+                                        <figure class="rounded-circle">
+                                            <img src="./assets/62567c723c8eff001aa26bf5.jpeg" alt="icon" width="200"
+                                                class="rounded-circle">
+                                        </figure>
+                                        <div class="profile-detail">
+                                            <h4 class="text-secondary font-bold">Aakash B</h4>
+                                            <span>Ecolap Trainee Software Developer</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-none d-md-flex row justify-content-around align-items-center text-center">
+                            <div class="col-6 col-md-2">
+                                <div class="profile">
+                                    <a href="#" class="nav-link">
+                                        <figure class="rounded-circle">
+                                            <img src="./assets/62dc33aba9f208001ac2a172.jpeg" alt="icon" width="200"
+                                                class="rounded-circle">
+                                        </figure>
+                                        <div class="profile-detail">
+                                            <h4 class="text-secondary font-bold">Aakash B</h4>
+                                            <span>Ecolap Trainee Software Developer</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-2">
+                                <div class="profile">
+                                    <a href="#" class="nav-link">
+                                        <figure class="rounded-circle">
+                                            <img src="./assets/62da4c5ea9f208001ac1ad2a.jpeg" alt="icon" width="200"
+                                                class="rounded-circle">
+                                        </figure>
+                                        <div class="profile-detail">
+                                            <h4 class="text-secondary font-bold">Aakash B</h4>
+                                            <span>Ecolap Trainee Software Developer</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-2">
+                                <div class="profile">
+                                    <a href="#" class="nav-link">
+                                        <figure class="rounded-circle">
+                                            <img src="./assets/62dfd8aea9f208001ac41204.jpeg" alt="icon" width="200"
+                                                class="rounded-circle">
+                                        </figure>
+                                        <div class="profile-detail">
+                                            <h4 class="text-secondary font-bold">Aakash B</h4>
+                                            <span>Ecolap Trainee Software Developer</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-2">
+                                <div class="profile">
+                                    <a href="#" class="nav-link">
+                                        <figure class="rounded-circle">
+                                            <img src="./assets/62dfd8aea9f208001ac41204.jpeg" alt="icon" width="200"
+                                                class="rounded-circle">
+                                        </figure>
+                                        <div class="profile-detail">
+                                            <h4 class="text-secondary font-bold">Aakash B</h4>
+                                            <span>Ecolap Trainee Software Developer</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-2">
+                                <div class="profile">
+                                    <a href="#" class="nav-link">
+                                        <figure class="rounded-circle">
+                                            <img src="./assets/62dfd8aea9f208001ac41204.jpeg" alt="icon" width="200"
+                                                class="rounded-circle">
+                                        </figure>
+                                        <div class="profile-detail">
+                                            <h4 class="text-secondary font-bold">Aakash B</h4>
+                                            <span>Ecolap Trainee Software Developer</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <!-- <div class="owl-carousel owl-carousel-partners">
-                        <div class="item">
-                            <img src="https://ineuron.ai/images/landing-page/colleges/taxila.svg" alt="musigma"
-                                class="px-3">
-                        </div>
-                        <div class="item">
-                            <img src="https://ineuron.ai/images/landing-page/colleges/vit.svg" alt="odessa"
-                                class="px-3">
-                        </div>
-                        <div class="item">
-                            <img src="https://ineuron.ai/images/landing-page/colleges/keit.svg" alt="redbus"
-                                class="px-3">
-                        </div>
-                        <div class="item">
-                            <img src="https://ineuron.ai/images/landing-page/colleges/gim.svg" alt="robosoft"
-                                class="px-3">
-                        </div>
-                        <div class="item">
-                            <img src="https://ineuron.ai/images/landing-page/colleges/malnad-college.svg" alt="robosoft"
-                                class="px-3">
-                        </div>
-                    </div> -->
+
+                </div>
+                <div class="text-center">
+                    <a href="#" class="btn btn-secondary font-bold border-0">View More</a>
                 </div>
             </div>
         </section>
@@ -1136,11 +1850,11 @@
 
     <footer>
         <div class="footer bg-primary">
-            <div class="container px-3">
+            <div class="container w-100 px-3">
                 <div class="row">
-                    <div class="col-md-4" style="padding-right:100px">
+                    <div class="col-12 col-sm-6 col-md-3 mb-4" style="padding-right:20px">
                         <figure>
-                            <img src="https://ineuron.ai/images/ineuron-logo-white.png" alt="ineuron">
+                            <img src="./assets/ineuron-logo-white.png" alt="ineuron">
                         </figure>
                         <div class="footer-description">
                             <p class="d-inline">17th Floor Tower A, Brigade Signature Towers, Sannatammanahalli,
@@ -1151,8 +1865,8 @@
                         </div>
 
                     </div>
-                    <div class="col-md-2">
-                        <h2>Company</h2>
+                    <div class="col-12 col-sm-6 col-md-3 mb-4">
+                        <h5 class="font-bold">Company</h5>
                         <div class="footer-menu">
                             <ul class="menu px-0">
                                 <li class="nav-link"><a href="#" class="nav-link">About us</a></li>
@@ -1164,8 +1878,8 @@
                         </div>
 
                     </div>
-                    <div class="col-md-3">
-                        <h2>Products</h2>
+                    <div class="col-12 col-sm-6 col-md-3 mb-4">
+                        <h5 class="font-bold">Products</h5>
                         <div class="footer-menu">
                             <ul class="menu px-0">
                                 <li class="nav-link"><a href="#" class="nav-link">Job Portal</a></li>
@@ -1176,82 +1890,83 @@
                             </ul>
                         </div>
 
-                    </div>
+                    </div>                    
 
-                    <div class="col-md-3">
-                        <h2>Contact</h2>
+                    <div class="col-12 col-sm-6 col-md-3 mb-4">
+                        <h5 class="font-bold">Follow us</h5>
                         <div class="footer-contact">
                             <div class="social-links">
-                                <div class="Footer_social-media__G4sGF Footer_flex__38iwG flex">
+                                <div class="d-block">
                                     <div>
                                         <a class="nav-link" href="https://www.facebook.com/ineuronai"><svg
                                                 stroke="currentColor" fill="currentColor" stroke-width="0"
                                                 viewBox="0 0 24 24" class="Footer_footer_social_icons__343g6"
-                                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                height="2em" width="2em" style="padding-right:5px" xmlns="http://www.w3.org/2000/svg">
                                                 <g>
                                                     <path fill="none" d="M0 0h24v24H0z"></path>
                                                     <path
                                                         d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z">
                                                     </path>
                                                 </g>
-                                            </svg> www.facebook.com/ineuron_ai </a>
+                                            </svg>Facebook</a>
                                     </div>
                                     <div>
                                         <a class="nav-link" href="https://twitter.com/iNeuronAi"><svg
                                                 stroke="currentColor" fill="currentColor" stroke-width="0"
                                                 viewBox="0 0 24 24" class="Footer_footer_social_icons__343g6"
-                                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                height="2em" width="2em" style="padding-right:5px" xmlns="http://www.w3.org/2000/svg">
                                                 <g>
                                                     <path fill="none" d="M0 0h24v24H0z"></path>
                                                     <path
                                                         d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z">
                                                     </path>
                                                 </g>
-                                            </svg> www.twitter.com/ineuron</a>
+                                            </svg>Twitter</a>
                                     </div>
                                     <div>
                                         <a class="nav-link"
                                             href="https://www.linkedin.com/company/ineuron-ai/mycompany/"><svg
                                                 stroke="currentColor" fill="currentColor" stroke-width="0"
                                                 viewBox="0 0 24 24" class="Footer_footer_social_icons__343g6"
-                                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                height="2em" width="2em" style="padding-right:5px" xmlns="http://www.w3.org/2000/svg">
                                                 <g>
                                                     <path fill="none" d="M0 0h24v24H0z"></path>
                                                     <path fill-rule="nonzero"
                                                         d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 0 1-1.548-1.549 1.548 1.548 0 1 1 1.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z">
                                                     </path>
                                                 </g>
-                                            </svg> www.linkedin.com/in/inueron</a>
+                                            </svg>Linkedin</a>
                                     </div>
                                     <div>
                                         <a class="nav-link"
                                             href="https://www.youtube.com/channel/UCb1GdqUqArXMQ3RS86lqqOw"><svg
                                                 stroke="currentColor" fill="currentColor" stroke-width="0"
                                                 viewBox="0 0 24 24" class="Footer_footer_social_icons__343g6"
-                                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                height="2em" width="2em" style="padding-right:5px" xmlns="http://www.w3.org/2000/svg">
                                                 <g>
                                                     <path fill="none" d="M0 0h24v24H0z"></path>
                                                     <path
                                                         d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z">
                                                     </path>
                                                 </g>
-                                            </svg> www.youtube.com/ineuron</a>
-                                        <div>
-                                            <a href="#" class="nav-link"><svg stroke="currentColor" fill="currentColor"
-                                                    stroke-width="0" viewBox="0 0 1024 1024"
-                                                    class="Footer_footer_location_marker__680ja" height="1em"
-                                                    width="1em" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M477.5 536.3L135.9 270.7l-27.5-21.4 27.6 21.5V792h752V270.8L546.2 536.3a55.99 55.99 0 0 1-68.7 0z">
-                                                    </path>
-                                                    <path d="M876.3 198.8l39.3 50.5-27.6 21.5 27.7-21.5-39.3-50.5z">
-                                                    </path>
-                                                    <path
-                                                        d="M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-94.5 72.1L512 482 190.5 232.1h643zm54.5 38.7V792H136V270.8l-27.6-21.5 27.5 21.4 341.6 265.6a55.99 55.99 0 0 0 68.7 0L888 270.8l27.6-21.5-39.3-50.5h.1l39.3 50.5-27.7 21.5z">
-                                                    </path>
-                                                </svg> contact@ineuron.ai</a>
-                                        </div>
+                                            </svg>Youtube</a>
                                     </div>
+                                    <div>
+                                        <a href="#" class="nav-link"><svg stroke="currentColor" fill="currentColor"
+                                                stroke-width="0" viewBox="0 0 1024 1024"
+                                                class="Footer_footer_location_marker__680ja" height="2em"
+                                                width="2em" style="padding-right:5px" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M477.5 536.3L135.9 270.7l-27.5-21.4 27.6 21.5V792h752V270.8L546.2 536.3a55.99 55.99 0 0 1-68.7 0z">
+                                                </path>
+                                                <path d="M876.3 198.8l39.3 50.5-27.6 21.5 27.7-21.5-39.3-50.5z">
+                                                </path>
+                                                <path
+                                                    d="M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-94.5 72.1L512 482 190.5 232.1h643zm54.5 38.7V792H136V270.8l-27.6-21.5 27.5 21.4 341.6 265.6a55.99 55.99 0 0 0 68.7 0L888 270.8l27.6-21.5-39.3-50.5h.1l39.3 50.5-27.7 21.5z">
+                                                </path>
+                                            </svg>contact@ineuron.ai</a>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -1272,16 +1987,16 @@
                         <li class="nav-item"><a href="#" class="nav-link text-white">FAQs</a></li>
                         <li class="nav-item"><a href="#" class="nav-link text-white">Terms and conditions</a></li>
                     </ul>
-        
+
                     <span>Copyrights &copy; 2022. All right reserved</span>
                 </div>
             </div>
-        </div>    
+        </div>
     </div>
 
     <script src="./assets/bootstrap/dist/js/bootstrap.js"></script>
     <script src="./assets/js/owl.carousel.min.js"></script>
-    <script src="./assets/general.js"></script>
+    <script src="./assets/js/general.js"></script>
 </body>
 
 </html>
